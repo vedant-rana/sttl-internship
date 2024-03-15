@@ -1,0 +1,340 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26288E77-3D30-475B-8D76-CFD129044E4F}|ThreeLayerUI\\ThreeLayerUI.csproj|c:\\users\\baps\\source\\repos\\threelayerwebapi\\threelayerui\\views\\patient\\updatepatient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26288E77-3D30-475B-8D76-CFD129044E4F}|ThreeLayerUI\\ThreeLayerUI.csproj|solutionrelative:threelayerui\\views\\patient\\updatepatient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26288E77-3D30-475B-8D76-CFD129044E4F}|ThreeLayerUI\\ThreeLayerUI.csproj|c:\\users\\baps\\source\\repos\\threelayerwebapi\\threelayerui\\views\\patient\\patientdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26288E77-3D30-475B-8D76-CFD129044E4F}|ThreeLayerUI\\ThreeLayerUI.csproj|solutionrelative:threelayerui\\views\\patient\\patientdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26288E77-3D30-475B-8D76-CFD129044E4F}|ThreeLayerUI\\ThreeLayerUI.csproj|c:\\users\\baps\\source\\repos\\threelayerwebapi\\threelayerui\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26288E77-3D30-475B-8D76-CFD129044E4F}|ThreeLayerUI\\ThreeLayerUI.csproj|solutionrelative:threelayerui\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26288E77-3D30-475B-8D76-CFD129044E4F}|ThreeLayerUI\\ThreeLayerUI.csproj|c:\\users\\baps\\source\\repos\\threelayerwebapi\\threelayerui\\views\\patient\\addpatient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26288E77-3D30-475B-8D76-CFD129044E4F}|ThreeLayerUI\\ThreeLayerUI.csproj|solutionrelative:threelayerui\\views\\patient\\addpatient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26288E77-3D30-475B-8D76-CFD129044E4F}|ThreeLayerUI\\ThreeLayerUI.csproj|c:\\users\\baps\\source\\repos\\threelayerwebapi\\threelayerui\\views\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26288E77-3D30-475B-8D76-CFD129044E4F}|ThreeLayerUI\\ThreeLayerUI.csproj|solutionrelative:threelayerui\\views\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26288E77-3D30-475B-8D76-CFD129044E4F}|ThreeLayerUI\\ThreeLayerUI.csproj|c:\\users\\baps\\source\\repos\\threelayerwebapi\\threelayerui\\models\\patientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26288E77-3D30-475B-8D76-CFD129044E4F}|ThreeLayerUI\\ThreeLayerUI.csproj|solutionrelative:threelayerui\\models\\patientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F167CE00-1AA8-463C-A760-916E64FC944B}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\baps\\source\\repos\\threelayerwebapi\\dataaccesslayer\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F167CE00-1AA8-463C-A760-916E64FC944B}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26288E77-3D30-475B-8D76-CFD129044E4F}|ThreeLayerUI\\ThreeLayerUI.csproj|c:\\users\\baps\\source\\repos\\threelayerwebapi\\threelayerui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26288E77-3D30-475B-8D76-CFD129044E4F}|ThreeLayerUI\\ThreeLayerUI.csproj|solutionrelative:threelayerui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08810B8F-7033-4CD9-AA52-D2FD361D8A0D}|ThreeLayerWebAPI\\ThreeLayerWebAPI.csproj|c:\\users\\baps\\source\\repos\\threelayerwebapi\\threelayerwebapi\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08810B8F-7033-4CD9-AA52-D2FD361D8A0D}|ThreeLayerWebAPI\\ThreeLayerWebAPI.csproj|solutionrelative:threelayerwebapi\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F167CE00-1AA8-463C-A760-916E64FC944B}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\baps\\source\\repos\\threelayerwebapi\\dataaccesslayer\\repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F167CE00-1AA8-463C-A760-916E64FC944B}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F167CE00-1AA8-463C-A760-916E64FC944B}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\baps\\source\\repos\\threelayerwebapi\\dataaccesslayer\\interfaces\\ipatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F167CE00-1AA8-463C-A760-916E64FC944B}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\interfaces\\ipatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08810B8F-7033-4CD9-AA52-D2FD361D8A0D}|ThreeLayerWebAPI\\ThreeLayerWebAPI.csproj|c:\\users\\baps\\source\\repos\\threelayerwebapi\\threelayerwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08810B8F-7033-4CD9-AA52-D2FD361D8A0D}|ThreeLayerWebAPI\\ThreeLayerWebAPI.csproj|solutionrelative:threelayerwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26288E77-3D30-475B-8D76-CFD129044E4F}|ThreeLayerUI\\ThreeLayerUI.csproj|c:\\users\\baps\\source\\repos\\threelayerwebapi\\threelayerui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26288E77-3D30-475B-8D76-CFD129044E4F}|ThreeLayerUI\\ThreeLayerUI.csproj|solutionrelative:threelayerui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0060C35D-44DC-464A-BA2E-1D8B52228C51}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\baps\\source\\repos\\threelayerwebapi\\businesslogiclayer\\services\\patientservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0060C35D-44DC-464A-BA2E-1D8B52228C51}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\patientservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0060C35D-44DC-464A-BA2E-1D8B52228C51}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\baps\\source\\repos\\threelayerwebapi\\businesslogiclayer\\interfaces\\ipatientservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0060C35D-44DC-464A-BA2E-1D8B52228C51}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\interfaces\\ipatientservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26288E77-3D30-475B-8D76-CFD129044E4F}|ThreeLayerUI\\ThreeLayerUI.csproj|c:\\users\\baps\\source\\repos\\threelayerwebapi\\threelayerui\\views\\patient\\deletepatient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26288E77-3D30-475B-8D76-CFD129044E4F}|ThreeLayerUI\\ThreeLayerUI.csproj|solutionrelative:threelayerui\\views\\patient\\deletepatient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26288E77-3D30-475B-8D76-CFD129044E4F}|ThreeLayerUI\\ThreeLayerUI.csproj|c:\\users\\baps\\source\\repos\\threelayerwebapi\\threelayerui\\threelayerui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{26288E77-3D30-475B-8D76-CFD129044E4F}|ThreeLayerUI\\ThreeLayerUI.csproj|solutionrelative:threelayerui\\threelayerui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08810B8F-7033-4CD9-AA52-D2FD361D8A0D}|ThreeLayerWebAPI\\ThreeLayerWebAPI.csproj|c:\\users\\baps\\source\\repos\\threelayerwebapi\\threelayerwebapi\\threelayerwebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{08810B8F-7033-4CD9-AA52-D2FD361D8A0D}|ThreeLayerWebAPI\\ThreeLayerWebAPI.csproj|solutionrelative:threelayerwebapi\\threelayerwebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26288E77-3D30-475B-8D76-CFD129044E4F}|ThreeLayerUI\\ThreeLayerUI.csproj|c:\\users\\baps\\source\\repos\\threelayerwebapi\\threelayerui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26288E77-3D30-475B-8D76-CFD129044E4F}|ThreeLayerUI\\ThreeLayerUI.csproj|solutionrelative:threelayerui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerUI\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "ThreeLayerUI\\Controllers\\PatientController.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerUI\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "ThreeLayerUI\\Controllers\\PatientController.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAwH8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T13:32:50.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatientDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerUI\\Views\\Patient\\PatientDetails.cshtml",
+              "RelativeDocumentMoniker": "ThreeLayerUI\\Views\\Patient\\PatientDetails.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerUI\\Views\\Patient\\PatientDetails.cshtml",
+              "RelativeToolTip": "ThreeLayerUI\\Views\\Patient\\PatientDetails.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAgwCgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-28T03:53:34.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdatePatient.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerUI\\Views\\Patient\\UpdatePatient.cshtml",
+              "RelativeDocumentMoniker": "ThreeLayerUI\\Views\\Patient\\UpdatePatient.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerUI\\Views\\Patient\\UpdatePatient.cshtml*",
+              "RelativeToolTip": "ThreeLayerUI\\Views\\Patient\\UpdatePatient.cshtml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-27T13:37:57.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddPatient.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerUI\\Views\\Patient\\AddPatient.cshtml",
+              "RelativeDocumentMoniker": "ThreeLayerUI\\Views\\Patient\\AddPatient.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerUI\\Views\\Patient\\AddPatient.cshtml",
+              "RelativeToolTip": "ThreeLayerUI\\Views\\Patient\\AddPatient.cshtml",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwDkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-27T13:37:01.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerUI\\Views\\Patient\\Index.cshtml",
+              "RelativeDocumentMoniker": "ThreeLayerUI\\Views\\Patient\\Index.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerUI\\Views\\Patient\\Index.cshtml",
+              "RelativeToolTip": "ThreeLayerUI\\Views\\Patient\\Index.cshtml",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwDsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-27T13:35:37.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PatientViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerUI\\Models\\PatientViewModel.cs",
+              "RelativeDocumentMoniker": "ThreeLayerUI\\Models\\PatientViewModel.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerUI\\Models\\PatientViewModel.cs",
+              "RelativeToolTip": "ThreeLayerUI\\Models\\PatientViewModel.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwBsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T13:47:45.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\DataAccessLayer\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\Patient.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\DataAccessLayer\\Models\\Patient.cs",
+              "RelativeToolTip": "DataAccessLayer\\Models\\Patient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T05:25:33.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IPatientServices.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\BusinessLogicLayer\\Interfaces\\IPatientServices.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Interfaces\\IPatientServices.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\BusinessLogicLayer\\Interfaces\\IPatientServices.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Interfaces\\IPatientServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T04:41:51.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerUI\\Program.cs",
+              "RelativeDocumentMoniker": "ThreeLayerUI\\Program.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerUI\\Program.cs",
+              "RelativeToolTip": "ThreeLayerUI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T08:29:09.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ThreeLayerWebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerWebAPI\\Program.cs",
+              "RelativeToolTip": "ThreeLayerWebAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T08:29:19.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PatientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\DataAccessLayer\\Repositories\\PatientRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\PatientRepository.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\DataAccessLayer\\Repositories\\PatientRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\PatientRepository.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAcwFIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T13:42:26.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ThreeLayerWebAPI.http",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerWebAPI\\ThreeLayerWebAPI.http",
+              "RelativeDocumentMoniker": "ThreeLayerWebAPI\\ThreeLayerWebAPI.http",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerWebAPI\\ThreeLayerWebAPI.http",
+              "RelativeToolTip": "ThreeLayerWebAPI\\ThreeLayerWebAPI.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-02-27T13:40:46.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerUI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ThreeLayerUI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerUI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ThreeLayerUI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-28T03:57:22.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PatientsController.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerWebAPI\\Controllers\\PatientsController.cs",
+              "RelativeDocumentMoniker": "ThreeLayerWebAPI\\Controllers\\PatientsController.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerWebAPI\\Controllers\\PatientsController.cs",
+              "RelativeToolTip": "ThreeLayerWebAPI\\Controllers\\PatientsController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAIwCcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T04:42:24.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IPatient.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\DataAccessLayer\\Interfaces\\IPatient.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Interfaces\\IPatient.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\DataAccessLayer\\Interfaces\\IPatient.cs",
+              "RelativeToolTip": "DataAccessLayer\\Interfaces\\IPatient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T04:41:37.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PatientServices.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\BusinessLogicLayer\\Services\\PatientServices.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\PatientServices.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\BusinessLogicLayer\\Services\\PatientServices.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\PatientServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T04:41:59.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DeletePatient.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerUI\\Views\\Patient\\DeletePatient.cshtml",
+              "RelativeDocumentMoniker": "ThreeLayerUI\\Views\\Patient\\DeletePatient.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerUI\\Views\\Patient\\DeletePatient.cshtml",
+              "RelativeToolTip": "ThreeLayerUI\\Views\\Patient\\DeletePatient.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-27T13:39:05.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ThreeLayerUI.csproj",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerUI\\ThreeLayerUI.csproj",
+              "RelativeDocumentMoniker": "ThreeLayerUI\\ThreeLayerUI.csproj",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerUI\\ThreeLayerUI.csproj",
+              "RelativeToolTip": "ThreeLayerUI\\ThreeLayerUI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-27T13:34:02.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerUI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ThreeLayerUI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\ThreeLayerWebAPI\\ThreeLayerUI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ThreeLayerUI\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T13:32:49.335Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

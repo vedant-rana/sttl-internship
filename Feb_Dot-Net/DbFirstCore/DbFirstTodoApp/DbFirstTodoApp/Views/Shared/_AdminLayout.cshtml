@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div class="container">
+       
+        <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+            <ul class="navbar-nav flex-grow-1">
+                <li>@Html.ActionLink("Add Task", "Add", "Todo", new { area = "" }, new { @class = "nav-link" })</li>
+                <li>@Html.ActionLink("Pending", "PendingTasks", "Todo", new { area = "" }, new { @class = "nav-link" })</li>
+                <li>@Html.ActionLink("Completed", "CompletedTask", "Todo", new { area = "" }, new { @class = "nav-link" })</li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

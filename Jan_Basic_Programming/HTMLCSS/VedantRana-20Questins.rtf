@@ -1,0 +1,211 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.22000}\viewkind4\uc1 
+\pard\sl240\slmult1\qc\ul\b\f0\fs32\lang9 HTML and CSS Questions with Practical Task\ulnone\b0\fs24\par
+
+\pard\sl240\slmult1\qj\par
+\b 1.What is difference between Tag and Element in HTML?\b0\par
+\par
+ \tab In HTML, an element is a fundamental building block, representing a structure or content piece, while a tag is the specific syntax used to define or mark up that element. For example, `<p>` is a tag that defines a paragraph element. So, `<p>This is a paragraph.</p>` where `<p>` is the opening tag and `</p>` is the closing tag, and the content in between constitutes the element.\par
+\par
+\par
+\b 2. Which are void elements in HTML?\b0\par
+\par
+\tab Void elements in HTML are those that don't have a closing tag. They self-close or terminate within the opening tag. Examples include `<br>` for line breaks and `<img>` for images. For instance, `<img src="example.jpg" alt="Example Image"/>` is a void element, where the tag doesn't have a separate closing tag.\par
+\par
+\par
+\b 3. What is semantic code in HTML?\b0\par
+\par
+\tab Semantic code in HTML refers to using tags that convey meaning about the structure and content of a webpage, aiding both browsers and developers in understanding the information. Examples include `<header>`, `<footer>`, `<nav>`, and `<article>`. Semantic code improves accessibility and search engine optimization by providing clear context to the document structure.\par
+\par
+\par
+\par
+\b 4. What is the difference between pseudo class and pseudo elements in CSS?\b0\par
+\par
+\tab In CSS, a pseudo-class is used to select and style a specific state or condition of an element, such as `:hover` or `:focus`. \par
+\tab A pseudo-element, on the other hand, selects and styles a part of an element, like `::before` or `::after`. \par
+\tab For example, `a:hover` is a pseudo-class targeting the hover state of a link, while `p::first-line` is a pseudo-element styling the first line of a paragraph.\par
+\par
+\par
+\b 5. Where in an HTML document is the correct place to refer to an external style sheet?\b0\par
+\par
+\tab The correct place to refer to an external style sheet in an HTML document is within the `<head>` section:\par
+\par
+<!DOCTYPE html>\par
+<html>\par
+<head>\par
+  <link rel="stylesheet" href="styles.css">\par
+</head>\par
+<body>\par
+  <!-- Content of the webpage -->\par
+</body>\par
+</html>\par
+\par
+\par
+\par
+\b 6. Which HTML tag is used to define an internal style sheet?\b0\par
+\par
+\tab The HTML `<style>` tag is used to define an internal style sheet. It is placed within the `<head>` section of the HTML document. \par
+\par
+<!DOCTYPE html>\par
+<html>\par
+<head>\par
+  <style>\par
+    body \{\par
+      font-family: Arial, sans-serif;\par
+      background-color: #f0f0f0;\par
+    \}\par
+    h1 \{\par
+      color: blue;\par
+    \}\par
+  </style>\par
+</head>\par
+<body>\par
+  <h1>This is a heading</h1>\par
+  <p>This is a paragraph.</p>\par
+</body>\par
+</html>\par
+\par
+\par
+\par
+\b 7. Which HTML attribute is used to define inline styles?\b0\par
+\par
+\tab The HTML `style` attribute is used to define inline styles. You can add the `style` attribute directly to an HTML element and specify CSS styles within it. \par
+  <p style="color: red; font-size: 16px;">This is a paragraph with inline styles.</p>\par
+\par
+\par
+\b\par
+8. How do you insert a comment in a CSS file?\par
+\b0\par
+\tab In CSS, you can insert comments using `/* */`. Anything between these comment delimiters will be ignored by the browser. \par
+\par
+/* This is a CSS comment */\par
+/* Another comment */\par
+h1 \{\par
+  color: blue;\par
+\}\par
+\par
+\par
+\par
+\b\par
+9. Which property is used to change the background color?\par
+\b0\par
+\tab The `background-color` property is used to change the background color of an element in CSS. \par
+\par
+div \{\par
+  background-color: lightblue; \par
+\}\par
+\par
+\par
+\b 10. How do you add a background color for all <h1> elements?\b0\par
+\tab\par
+\tab To add a background color for all `<h1>` elements, you can use the `background-color` property in your CSS and target the `<h1>` selector. \par
+\par
+h1 \{\par
+  background-color: #ffcc00; \par
+  color: #333; \par
+\}\par
+\par
+\par
+\b\par
+11. Which CSS property controls the text size?\par
+\b0\par
+The CSS property that controls the text size is `font-size`. \par
+\par
+p \{\par
+  font-size: 16px;\par
+\}\par
+\par
+\par
+\par
+\b\par
+12. How do you display hyperlinks without an underline?\par
+\b0\par
+\tab To display hyperlinks without an underline, you can use the `text-decoration` property in CSS and set it to `none` for the `<a>`  selector. \par
+\par
+a \{\par
+  text-decoration: none;\par
+\}\par
+\par
+\par
+\par
+\b 13. How do you make each word in a text start with a capital letter?\b0\par
+\par
+\tab You can use the `text-transform` property in CSS and set it to `capitalize` to make each word in a text start with a capital letter.\par
+\par
+p \{\par
+  text-transform: capitalize;\par
+\}\par
+\par
+\par
+\par
+\par
+\b 14. How do you display a border like this:\par
+The top border = 10 pixels\par
+The dotted bottom border  = 5 pixels\par
+The dashed left border = 20 pixels\par
+The right border = 1pixel?\par
+\b0\tab\par
+\tab\par
+div \{\par
+  border-top: 10px solid black; \par
+  border-bottom: 5px dotted black;\par
+  border-left: 20px dashed black; \par
+  border-right: 1px solid black; \par
+\}\par
+\par
+\b\par
+\par
+15. When using the padding property; are you allowed to use negative values?\par
+\b0\par
+\tab No, in CSS, we are not allowed to use negative values for the `padding` property. The `padding` property sets the space between the content of an element and its border. It only accepts non-negative values. Attempting to use a negative value for `padding` will not produce the desired effect and is not valid according to the CSS specifications.\par
+\par
+\b\par
+16. How do you group selectors?\par
+\b0\par
+h1, h2, p \{\par
+  color: #333; \par
+  font-family: 'Arial', sans-serif; \par
+\}\par
+\par
+\par
+\par
+\b 17. What is the default value of the position property?\par
+\b0\par
+\tab The default value of the CSS `position` property is `static`. When an element's position property is set to `static`, it is positioned according to the normal flow of the document, and other positioning properties like `top`, `right`, `bottom`, and `left` have no effect on it.\par
+\par
+\par
+\b 18. How you can define pseudo element?\par
+\b0\par
+\tab Pseudo-elements in CSS are denoted by a double colon `::` followed by the name of the pseudo-element.\par
+\par
+p::first-line \{\par
+  font-weight: bold;\par
+  color: blue;\par
+\}\par
+\par
+\par
+\par
+\b 19. What is box model?\par
+\b0\par
+\tab The box model is a fundamental concept in CSS that describes the layout of elements on a webpage. It consists of four components: content, padding, border, and margin. These components create a rectangular box around every element, and their sizes can be adjusted using CSS properties.\par
+\par
+1. Content: The actual content of the box, where text and images appear.\par
+2. Padding: Clears an area around the content, inside the border. It is transparent.\par
+3. Border: A border surrounding the padding (if any) and content.\par
+4. Margin: Clears an area outside the border. It separates the element from other elements in the document.\par
+\par
+\par
+\b 20. What is flex model?\par
+\b0\par
+\tab The Flexbox  model is a layout model in CSS designed to provide a more efficient way to design and distribute space among items in a container, even when the size of the items is unknown or dynamic. Flexbox allows for easier alignment and distribution of space along a single axis (either horizontally or vertically) and is particularly useful for designing responsive and dynamic layouts.\par
+\par
+\par
+1. `display: flex;`: Turns an element into a flex container.\par
+2. `flex-direction`: Specifies the direction of the flex container's main axis (row or  column).\par
+3. `justify-content`: Aligns items along the main axis.\par
+4. `align-items`: Aligns items along the cross axis.\par
+\par
+\par
+\par
+}
+ 

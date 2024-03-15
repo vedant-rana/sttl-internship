@@ -1,0 +1,23 @@
+﻿
+@model IEnumerable<DbFirstTodoApp.Models.Todolist>
+@using DbFirstTodoApp.Helpers
+
+<style>
+    .card-div {
+        background-color: #E8EAFF;
+    }
+
+    .cards-div {
+        display: flex;
+        justify-content: space-between;
+    }
+</style>
+<div class="container cards-div row">
+
+    @foreach (var item in Model)
+    {
+        @Html.Raw(TodoHelpers.CardHelper(item, Url.Action("Completed", "ToDo", new { id = item.Id }), Url.Action("Delete", "ToDo", new { id = item.Id })))
+    }
+
+</div>
+

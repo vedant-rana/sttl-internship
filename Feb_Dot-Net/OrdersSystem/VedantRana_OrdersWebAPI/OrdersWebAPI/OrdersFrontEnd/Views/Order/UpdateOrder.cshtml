@@ -1,0 +1,58 @@
+﻿@model OrdersFrontEnd.Models.Order
+
+@{
+
+}
+
+<form method="post" asp-controller="Order" asp-action="UpdateOrder">
+	<input type="hidden" asp-for="OrderId" />
+	<div class="border p-3 mt-4" style="max-width: 500px; margin: 0 auto;">
+		<div class="row pb-2">
+			<h2 class="text-primary text-center">Order Details</h2>
+			<hr />
+		</div>
+		<div class="mb-2 row p-1" style="margin-bottom: 10px;">
+			<label asp-for="OrderId" class="p-0"></label>
+			<input asp-for="OrderId" class="form-control" disabled/>
+			<span asp-validation-for="OrderId" class="text-danger"></span>
+		</div>
+		<div class="mb-2 row p-1" style="margin-bottom: 10px;">
+			<label asp-for="CustomerId" class="p-0">Customer</label>
+			@Html.DropDownListFor(cust => cust.CustomerId, new SelectList(ViewBag.customerList, "CustId", "CustName"), "Select", new { @class = "form-control" })
+			<span asp-validation-for="CustomerId" class="text-danger"></span>
+		</div>
+		<div class="mb-2 row p-1" style="margin-bottom: 10px;">
+			<label asp-for="OrderDate" class="p-0"></label>
+			<input asp-for="OrderDate" class="form-control" disabled/>
+			<span asp-validation-for="OrderDate" class="text-danger"></span>
+		</div>
+		<div class="mb-2 row p-1" style="margin-bottom: 10px;">
+			<label asp-for="TotalAmount" class="p-0"></label>
+			<input asp-for="TotalAmount" class="form-control" disabled/>
+			<span asp-validation-for="TotalAmount" class="text-danger"></span>
+		</div>
+		<div class="mb-2 row p-1" style="margin-bottom: 10px;">
+			<label asp-for="Status" class="p-0"></label>
+			<select asp-for="Status" class="form-control">
+				<option value="Processing">Processing</option>
+				<option value="Pending">Pending</option>
+				<option value="Dispatched">Dispatched</option>
+				<option value="Delivered">Delivered</option>
+				<option value="Cancelled">Cancelled</option>
+			</select>
+			<span asp-validation-for="Status" class="text-danger"></span>
+		</div>
+
+
+		<div class="row">
+			<div class="col-6 col-md-3">
+				<button type="submit" class="btn btn-primary form-control">Update</button>
+			</div>
+			<div class="col-6 col-md-3">
+				<a asp-controller="Order" asp-action="Index" class="btn btn-outline-secondary form-control">
+					Back
+				</a>
+			</div>
+		</div>
+	</div>
+</form>

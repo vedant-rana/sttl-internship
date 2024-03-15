@@ -1,0 +1,70 @@
+﻿@model ThreeLayerUI.Models.PatientViewModel
+
+
+<form mathod="post" asp-controller="Patient" asp-action="UpdatePatient">
+	<input type="hidden" asp-for="PatientId" />
+	<div class="border p-3 mt-4" style="max-width: 500px; margin: 0 auto;">
+		<div class="row pb-2">
+			<h2 class="text-primary text-center">Update Patient</h2>
+			<hr />
+		</div>
+		<div class="mb-2 row p-1" style="margin-bottom: 10px;">
+			<label asp-for="FirstName" class="p-0"></label>
+			<input asp-for="FirstName" class="form-control" />
+			<span asp-validation-for="FirstName" class="text-danger"></span>
+		</div>
+		<div class="mb-2 row p-1" style="margin-bottom: 10px;">
+			<label asp-for="LastName" class="p-0"></label>
+			<input asp-for="LastName" class="form-control" />
+			<span asp-validation-for="LastName" class="text-danger"></span>
+		</div>
+		<div class="mb-2 row p-1" style="margin-bottom: 10px;">
+			<label asp-for="BirthDate" class="p-0"></label>
+			<input asp-for="BirthDate" class="form-control" />
+			<span asp-validation-for="BirthDate" class="text-danger"></span>
+		</div>
+		<div class="mb-2 row p-1">
+			<label class="p-0">Gender</label>
+			<div class="form-check">
+				<input class="form-check-input" type="radio" asp-for="Gender" value="Male" id="genderMale" checked="@(Model.Gender == "Male" ? "checked" : null)">
+				<label class="form-check-label" for="genderMale">
+					Male
+				</label>
+			</div>
+			<div class="form-check">
+				<input class="form-check-input" type="radio" asp-for="Gender" value="Female" id="genderFemale" checked="@(Model.Gender == "Female" ? "checked" : null)">
+				<label class="form-check-label" for="genderFemale">
+					Female
+				</label>
+			</div>
+			<div class="form-check">
+				<input class="form-check-input" type="radio" asp-for="Gender" value="Others" id="genderOthers" checked="@(Model.Gender == "Others" ? "checked" : null)">
+				<label class="form-check-label" for="genderOthers">
+					Others
+				</label>
+			</div>
+			<span asp-validation-for="Gender" class="text-danger"></span>
+		</div>
+
+		<div class="mb-2 row p-1">
+			<label asp-for="ContactNumber" class="p-0"></label>
+			<input asp-for="ContactNumber" class="form-control" />
+			<span asp-validation-for="ContactNumber" class="text-danger"></span>
+		</div>
+		<div class="mb-2 row p-1">
+			<label asp-for="Address" class="p-0"></label>
+			<input asp-for="Address" class="form-control" />
+			<span asp-validation-for="Address" class="text-danger"></span>
+		</div>
+		<div class="row">
+			<div class="col-6 col-md-3">
+				<button type="submit" class="btn btn-primary form-control">Update</button>
+			</div>
+			<div class="col-6 col-md-3">
+				<a asp-controller="Patient" asp-action="Index" class="btn btn-outline-secondary form-control">
+					Back
+				</a>
+			</div>
+		</div>
+	</div>
+</form>

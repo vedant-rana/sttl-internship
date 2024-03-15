@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Shipping Registration</title>
+</head>
+
+<body>
+    <div class="container main-div">
+        <h1 class="mt-4">Shipping Container Registartion</h1>
+        <form>
+            <div class="row mt-5 section">
+                <h3>Consignment Details</h3>
+                <div class="col-12">
+                    <label for="consignmentNo" class="form-label">Consignment ID : </label>
+                    <input type="text" id="consignmentNo" class="form-control shadow-none" placeholder="Consignment ID">
+                </div>
+                <div class="col-md-6">
+                    <label for="category" class="form-label">Category</label>
+                    <select class="form-select shadow-none">
+                        <option selected>Select Category</option>
+                        <option value="electronics">Electronics</option>
+                        <option value="clothes">Clothes</option>
+                        <option value="food">Food</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="subcategory" class="form-label">Sub Category</label>
+                    <select class="form-select shadow-none">
+                        <option selected>Select Category</option>
+                        <option value="phone">Smart Phone</option>
+                        <option value="laptop">Laptops</option>
+                        <option value="shirts">Shirts</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="quantity" class="form-label">Quantity</label>
+                    <input type="text" id="quantity" class="form-control shadow-none" placeholder="Enter Quantity">
+                </div>
+                <div class="col-md-6 row">
+                    <div class="col-md-8">
+                        <label for="weight" class="form-label">Weight </label>
+                        <input type="text" id="weight" class="form-control shadow-none" placeholder="Enter Approximate Weight">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="weight" class="form-label">Unit (Weight) </label>
+                        <select class="form-select shadow-none">
+                            <option selected>Select Unit</option>
+                            <option value="gm">Gram</option>
+                            <option value="kg">K.G.</option>
+                            <option value="ton">Tone</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row mt-5 section">
+                <h3>Sender's Information</h3>
+                <div class="col-md-6">
+                    <label for="sender" class="form-label">Sender's Name</label>
+                    <input type="text" id="sender" class="form-control shadow-none" placeholder="Sender Company / Person's Name">
+                </div>
+                <div class="col-md-6">
+                    <label for="sender-contact-person" class="form-label">Contact Person </label>
+                    <input type="text" id="sender-contact-person" class="form-control shadow-none"
+                        placeholder="Contact Person's Name">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="sender-number" class="form-label">Phone Number </label>
+                    <input type="text" id="sender-number" class="form-control shadow-none" placeholder="Phone / Mobile Number">
+                </div>
+                <div class="col-md-6">
+                    <label for="sender-email" class="form-label">Email </label>
+                    <input type="email" id="sender-email" class="form-control shadow-none" placeholder="Sender's Email">
+                </div>
+
+                <div class="form-group col-12">
+                    <label for="sender-address">Address</label>
+                    <textarea class="form-control shadow-none" id="sender-address" rows="3"
+                        placeholder="Sender's Address"></textarea>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="sender-pincode" class="form-label">Pincode </label>
+                    <input type="text" id="sender-pincode" class="form-control shadow-none" placeholder="Sender's Pincode">
+                </div>
+                <div class="col-md-6">
+                    <label for="sender-state" class="form-label">State </label>
+                    <input type="email" id="sender-state" class="form-control shadow-none" placeholder="Sender's State">
+                </div>
+
+            </div>
+            <hr>
+
+
+            <div class="row mt-5 section">
+                <h3>Receiver's Information</h3>
+                <div class="col-md-6">
+                    <label for="reciever" class="form-label">Receiver's Name</label>
+                    <input type="text" id="reciever" class="form-control shadow-none"
+                        placeholder="Receiver Company / Person's Name">
+                </div>
+                <div class="col-md-6">
+                    <label for="reciever-contact-person" class="form-label">Contact Person </label>
+                    <input type="text" id="reciever-contact-person" class="form-control shadow-none"
+                        placeholder="Contact Person's Name">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="reciever-number" class="form-label">Phone Number </label>
+                    <input type="text" id="reciever-number" class="form-control shadow-none" placeholder="Phone / Mobile Number">
+                </div>
+                <div class="col-md-6">
+                    <label for="reciever-email" class="form-label">Email </label>
+                    <input type="email" id="reciever-email" class="form-control shadow-none" placeholder="Receiver's Email">
+                </div>
+
+                <div class="form-group col-12">
+                    <label for="reciever-address">Address</label>
+                    <textarea class="form-control shadow-none" id="reciever-address" rows="3"
+                        placeholder="Receiver's Address"></textarea>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="reciever-pincode" class="form-label">Pincode </label>
+                    <input type="text" id="reciever-pincode" class="form-control shadow-none" placeholder="Receiver's Pincode">
+                </div>
+                <div class="col-md-6">
+                    <label for="reciever-state" class="form-label">State </label>
+                    <input type="email" id="reciever-state" class="form-control shadow-none" placeholder="Receiver's State">
+                </div>
+
+            </div>
+            <hr>
+
+
+            <div class="row mt-5 section">
+                <h3>Shipping and Handling Details</h3>
+                <div class="col-md-6">
+                    <label for="shipdate" class="form-label">Preferred Shipping Date</label>
+                    <input type="date" id="shipdate" class="form-control shadow-none">
+                </div>
+                <div class="col-md-6">
+                    <label for="delivery-type" class="form-label">Delivery Type</label>
+                    <select class="form-select shadow-none" id="delivery-type">
+                        <option selected>Select Delivery Type</option>
+                        <option value="sf">Super-Fast</option>
+                        <option value="exp">Express</option>
+                        <option value="std">Standard</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <label for="instruction" class="form-label">Special Handling Instructions (if any)</label>
+                    <input type="text" id="instruction" class="form-control shadow-none" placeholder="Write Instruction">
+                </div>
+            </div>
+
+
+            <div class="form-check terms ">
+                <input class="form-check-input" type="checkbox" value="" id="terms" >
+                <label class="form-check-label" for="terms">
+                    I agree to the<b> Terms and Conditions</b>
+                </label>
+            </div>
+
+
+            <div class="col-auto row section">
+                <button type="reset" class="btn btn-primary col-2">Reset</button>
+                <button type="submit" class="btn btn-primary col-2">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
+
+<!-- 
+
+Consignment Details:
+
+Description of Goods
+Total Weight
+Quantity (Number of Boxes/Pallets, etc.)
+Value of Goods
+Hazardous Material Information (if applicable)
+Container Information:
+
+Container Number (if already assigned)
+Container Type (Standard, Reefer, Open Top, etc.)
+Container Size (20 ft, 40 ft, etc.)
+Sender Information:
+
+Sender's Company Name
+Contact Person
+Address
+Phone Number
+Email Address
+Receiver Information:
+
+Receiver's Company Name
+Contact Person
+Address
+Phone Number
+Email Address
+Shipping Details:
+
+Preferred Shipping Date
+Origin Port or Facility
+Destination Port or Facility
+Shipping Line (if known or applicable)
+Insurance Details:
+
+Need for Insurance (Yes/No)
+Insurance Value (if applicable)
+Customs and Compliance:
+
+Customs Declaration Number (if already completed)
+Any special compliance or documentation required
+Additional Services:
+
+Special Handling Requirements (e.g., Fragile, Keep Upright)
+Warehousing Needs (if any)
+Terms and Conditions:
+
+Checkbox to agree to terms and conditions
+Submit Button:
+
+To submit the form
+ -->

@@ -1,0 +1,10 @@
+C:\Users\baps\source\repos\EmployeeForm\EmployeeForm\bin\Debug\EmployeeForm.exe.config
+C:\Users\baps\source\repos\EmployeeForm\EmployeeForm\bin\Debug\EmployeeForm.exe
+C:\Users\baps\source\repos\EmployeeForm\EmployeeForm\bin\Debug\EmployeeForm.pdb
+C:\Users\baps\source\repos\EmployeeForm\EmployeeForm\obj\Debug\EmployeeForm.csproj.AssemblyReference.cache
+C:\Users\baps\source\repos\EmployeeForm\EmployeeForm\obj\Debug\EmployeeForm.Form1.resources
+C:\Users\baps\source\repos\EmployeeForm\EmployeeForm\obj\Debug\EmployeeForm.Properties.Resources.resources
+C:\Users\baps\source\repos\EmployeeForm\EmployeeForm\obj\Debug\EmployeeForm.csproj.GenerateResource.cache
+C:\Users\baps\source\repos\EmployeeForm\EmployeeForm\obj\Debug\EmployeeForm.csproj.CoreCompileInputs.cache
+C:\Users\baps\source\repos\EmployeeForm\EmployeeForm\obj\Debug\EmployeeForm.exe
+C:\Users\baps\source\repos\EmployeeForm\EmployeeForm\obj\Debug\EmployeeForm.pdb

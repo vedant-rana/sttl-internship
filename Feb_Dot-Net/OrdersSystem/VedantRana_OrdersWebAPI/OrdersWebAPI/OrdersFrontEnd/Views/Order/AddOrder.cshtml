@@ -1,0 +1,33 @@
+﻿@model OrdersFrontEnd.Models.Order
+
+
+<form method="post" asp-controller="Order" asp-action="AddOrder">
+	<div class="border p-3 mt-4" style="max-width: 500px; margin: 0 auto;">
+		<div class="row pb-2">
+			<h2 class="text-primary text-center">Add New Customer</h2>
+			<hr />
+		</div>
+		@*  <div class="mb-2 row p-1" style="margin-bottom: 10px;">
+		<label asp-for="CustomerId" class="p-0"></label>
+		<input asp-for="CustomerId" class="form-control" />
+		<span asp-validation-for="CustomerId" class="text-danger"></span>
+		</div>  *@
+		<div class="mb-2 row p-1" style="margin-bottom: 10px;">
+			<label asp-for="CustomerId" class="p-0">Customer</label>
+			@Html.DropDownListFor(cust => cust.CustomerId, new SelectList(ViewBag.customerList, "CustId", "CustName"), "Select", new{@class="form-control"})
+			<span asp-validation-for="CustomerId" class="text-danger"></span>
+		</div>
+
+
+		<div class="row">
+			<div class="col-6 col-md-3">
+				<button type="submit" class="btn btn-primary form-control">Create</button>
+			</div>
+			<div class="col-6 col-md-3">
+				<a asp-controller="Order" asp-action="Index" class="btn btn-outline-secondary form-control">
+					Back
+				</a>
+			</div>
+		</div>
+	</div>
+</form>

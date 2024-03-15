@@ -1,0 +1,102 @@
+/* String Funcions*/
+
+SELECT ASCII('A'); 
+
+SELECT CHAR(97);
+
+SELECT CHARINDEX( 'l', 'Hello');
+
+SELECT CONCAT('Hello', 'World', '!');
+
+SELECT DATALENGTH('Silver Touch   ');
+
+SELECT LEN('Silver Touch  ');
+
+SELECT LEFT('SilverTouch' ,3);
+
+SELECT RIGHT('SilverTouch', 3);
+
+SELECT LTRIM('   SilverTouch   ');
+
+SELECT RTRIM('   SilverTouch   ');
+
+SELECT REVERSE('SilverTouch');
+
+SELECT SUBSTRING('SilverTouch', 3,6);
+
+SELECT LOWER('SilverTouch');
+
+SELECT UPPER('SilverTouch');
+
+SELECT REPLACE('SilverTouchTechnology','o','_' );
+
+
+
+
+
+/*    Math functions  */
+SELECT ABS(-15);  --Returns the absolute value of a number
+
+SELECT ROUND(15.678, 2); --Rounds a number up to the nearest integer
+
+SELECT CEILING(15.3); --Rounds a number up to the nearest integer
+
+SELECT FLOOR(15.8); --Rounds a number down to the nearest integer
+
+SELECT SQRT(25);  --Returns the square root of a number
+
+SELECT POWER(2, 3);  -- Raises a number to the power of another number
+
+SELECT EXP(2); --Returns the exponential value of a specified number
+
+SELECT LOG(10);   --Returns the natural logarithm of a number
+
+SELECT LOG10(100);  --Returns the base-10 logarithm of a number
+
+SELECT RAND();  --Returns a random float value between 0 and 1
+
+SELECT PI(); --Returns the mathematical constant π (pi)
+
+SELECT ISNULL(NULL, 0) ; --Replaces NULL with the specified replacement value
+
+SELECT COS(0);  --Returns the cosine of an angle specified in radians
+
+
+
+/*Date function*/
+
+SELECT GETDATE(); /*Returns the current date and time*/
+
+SELECT SYSDATETIME();  /*Returns the current date and time with higher precision than GETDATE()*/
+
+SELECT FORMAT(GETDATE(), 'yyyy-MM-dd HH:mm:ss'); /* Formats a date and time value*/
+
+SELECT DATEPART(YEAR, GETDATE()); /*Returns a specified part of a date */
+
+SELECT DATEADD(DAY, 7, GETDATE()); /*Adds or subtracts a specified time interval from a date*/
+
+SELECT DATEDIFF(YEAR, '2001-11-29', GETDATE());  /*Returns the difference between two dates*/
+
+SELECT CONVERT(VARCHAR, GETDATE(), 103); /*Converts a date and time value to a specified format*/
+
+SELECT MONTH('2024-01-19'); /*Returns the month part of a date*/
+
+SELECT DAY(GETDATE()); /*Returns the day of the month for a given date*/
+
+SELECT YEAR('2024-01-19');  /*Returns the year part of a date*/
+
+
+
+
+/* Advanced Functions */
+SELECT ISNULL(NULL, 'Return beacuse of NULL');  --Return a specified value if the expression is NULL, otherwise return the expression
+
+SELECT ISNUMERIC('D');   --Tests whether an expression is numeric
+
+SELECT CAST(100.100 AS int);  --Converts a value (of any type) into a specified datatype
+
+SELECT CONVERT(INT, 100.99);    --Converts a value (of any type) into a specified datatype
+
+SELECT NULLIF(100,100);		--Returns NULL if two expressions are equal
+
+SELECT COALESCE(NULL, NULL, 'FIRST', NULL, 'SECOND');  --Return the first non-null value in a list

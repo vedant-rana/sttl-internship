@@ -1,0 +1,30 @@
+.headerRow {
+    padding: 10px 0;
+    background: #133b70;
+}
+
+.headerRight {
+    position: relative;
+}
+
+#navbar-nav {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#navbar-nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#navbar-nav li a {
+    padding: 0 0.7rem;
+    display: block;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 4.5rem;
+    position: relative;
+    text-decoration: none;
+    font-weight: 600;
+}

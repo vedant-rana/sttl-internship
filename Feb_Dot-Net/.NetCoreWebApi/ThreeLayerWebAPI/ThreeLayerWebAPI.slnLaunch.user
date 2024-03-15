@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "ThreeLayerWebAPI\\ThreeLayerWebAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "ThreeLayerUI\\ThreeLayerUI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+CREATE TABLE Patients (
+    PatientID INT IDENTITY(1001,1) PRIMARY KEY,
+    FirstName NVARCHAR(50) NOT NULL,
+    LastName NVARCHAR(50) NOT NULL,
+    BirthDate DATE NOT NULL,
+    Gender NVARCHAR(10) NOT NULL, 
+    ContactNumber NVARCHAR(15) NOT NULL,
+    Address NVARCHAR(255)
+);
+

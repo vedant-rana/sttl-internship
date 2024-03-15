@@ -1,0 +1,19 @@
+string html = $@"
+<div class='container'>
+    <div class='row justify-content-center'>
+        <div class='col-md-8'>
+            <div class='card'>
+                <div class='card-header bg-primary text-white'>
+                    Task ID: {id}
+                    <a href='{deleteUrl}' class='close delete-button' style='font-size: 20px;'>&times;</a>
+                </div>
+                <div class='card-body'>
+                    <h5 class='card-title'>Task Description</h5>
+                    <p class='card-text'>{taskDescription}</p>
+                    <p class='card-text'>Status: {(isCompleted ? "<span class='text-success'>Completed</span>" : "<span class='text-danger'>Incomplete</span>")}</p>
+                    <a href='{editUrl}' class='btn btn-outline-primary'>Edit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>";

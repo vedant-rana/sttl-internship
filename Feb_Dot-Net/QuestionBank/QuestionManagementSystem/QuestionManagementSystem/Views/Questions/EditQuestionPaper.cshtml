@@ -1,0 +1,69 @@
+﻿@model IEnumerable<QuestionManagementSystem.Models.Question>
+
+@{
+    ViewBag.Title = "EditQuestionPaper";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Add Questions</h2>
+
+<p>
+    @Html.ActionLink("Add Question", "CreateQuestions", "Questions", new { id1 = Convert.ToInt32(ViewBag.paperId)  }, new { @class = "btn btn-primary" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.question1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.opt1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.opt2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.opt3)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.opt4)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.answer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.QuestionsPaper.title)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.question1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.opt1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.opt2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.opt3)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.opt4)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.answer)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.QuestionsPaper.title)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditQuestions","Questions", new { id=item.queId }, new { @class = "btn btn-danger" }) |
+            @Html.ActionLink("Delete", "DeleteQuestion","Questions", new { id=item.queId }, new { @class = "btn btn-secondary" })
+        </td>
+    </tr>
+}
+
+</table>

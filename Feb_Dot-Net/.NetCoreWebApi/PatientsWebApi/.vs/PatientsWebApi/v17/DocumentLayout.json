@@ -1,0 +1,195 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\baps\\source\\repos\\PatientsWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A55AAFE5-1F50-43C4-9B4B-A48776B355C1}|PatientsWebApi\\PatientsWebApi.csproj|c:\\users\\baps\\source\\repos\\patientswebapi\\patientswebapi\\repositories\\patientrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A55AAFE5-1F50-43C4-9B4B-A48776B355C1}|PatientsWebApi\\PatientsWebApi.csproj|solutionrelative:patientswebapi\\repositories\\patientrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A55AAFE5-1F50-43C4-9B4B-A48776B355C1}|PatientsWebApi\\PatientsWebApi.csproj|c:\\users\\baps\\source\\repos\\patientswebapi\\patientswebapi\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A55AAFE5-1F50-43C4-9B4B-A48776B355C1}|PatientsWebApi\\PatientsWebApi.csproj|solutionrelative:patientswebapi\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A55AAFE5-1F50-43C4-9B4B-A48776B355C1}|PatientsWebApi\\PatientsWebApi.csproj|c:\\users\\baps\\source\\repos\\patientswebapi\\patientswebapi\\patientswebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A55AAFE5-1F50-43C4-9B4B-A48776B355C1}|PatientsWebApi\\PatientsWebApi.csproj|solutionrelative:patientswebapi\\patientswebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A55AAFE5-1F50-43C4-9B4B-A48776B355C1}|PatientsWebApi\\PatientsWebApi.csproj|c:\\users\\baps\\source\\repos\\patientswebapi\\patientswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A55AAFE5-1F50-43C4-9B4B-A48776B355C1}|PatientsWebApi\\PatientsWebApi.csproj|solutionrelative:patientswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A55AAFE5-1F50-43C4-9B4B-A48776B355C1}|PatientsWebApi\\PatientsWebApi.csproj|c:\\users\\baps\\source\\repos\\patientswebapi\\patientswebapi\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A55AAFE5-1F50-43C4-9B4B-A48776B355C1}|PatientsWebApi\\PatientsWebApi.csproj|solutionrelative:patientswebapi\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A55AAFE5-1F50-43C4-9B4B-A48776B355C1}|PatientsWebApi\\PatientsWebApi.csproj|c:\\users\\baps\\source\\repos\\patientswebapi\\patientswebapi\\dataaccess\\patientdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A55AAFE5-1F50-43C4-9B4B-A48776B355C1}|PatientsWebApi\\PatientsWebApi.csproj|solutionrelative:patientswebapi\\dataaccess\\patientdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A55AAFE5-1F50-43C4-9B4B-A48776B355C1}|PatientsWebApi\\PatientsWebApi.csproj|c:\\users\\baps\\source\\repos\\patientswebapi\\patientswebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A55AAFE5-1F50-43C4-9B4B-A48776B355C1}|PatientsWebApi\\PatientsWebApi.csproj|solutionrelative:patientswebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A55AAFE5-1F50-43C4-9B4B-A48776B355C1}|PatientsWebApi\\PatientsWebApi.csproj|c:\\users\\baps\\source\\repos\\patientswebapi\\patientswebapi\\models\\webapipatientdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A55AAFE5-1F50-43C4-9B4B-A48776B355C1}|PatientsWebApi\\PatientsWebApi.csproj|solutionrelative:patientswebapi\\models\\webapipatientdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A55AAFE5-1F50-43C4-9B4B-A48776B355C1}|PatientsWebApi\\PatientsWebApi.csproj|c:\\users\\baps\\source\\repos\\patientswebapi\\patientswebapi\\interfaces\\ipatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A55AAFE5-1F50-43C4-9B4B-A48776B355C1}|PatientsWebApi\\PatientsWebApi.csproj|solutionrelative:patientswebapi\\interfaces\\ipatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A55AAFE5-1F50-43C4-9B4B-A48776B355C1}|PatientsWebApi\\PatientsWebApi.csproj|c:\\users\\baps\\source\\repos\\patientswebapi\\patientswebapi\\repositories\\t.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A55AAFE5-1F50-43C4-9B4B-A48776B355C1}|PatientsWebApi\\PatientsWebApi.csproj|solutionrelative:patientswebapi\\repositories\\t.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\PatientsWebApi\\PatientsWebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "PatientsWebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\PatientsWebApi\\PatientsWebApi\\appsettings.json",
+              "RelativeToolTip": "PatientsWebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAC6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-23T05:42:14.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\PatientsWebApi\\PatientsWebApi\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "PatientsWebApi\\Models\\Patient.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\PatientsWebApi\\PatientsWebApi\\Models\\Patient.cs",
+              "RelativeToolTip": "PatientsWebApi\\Models\\Patient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T06:07:53.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PatientsWebApi.csproj",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\PatientsWebApi\\PatientsWebApi\\PatientsWebApi.csproj",
+              "RelativeDocumentMoniker": "PatientsWebApi\\PatientsWebApi.csproj",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\PatientsWebApi\\PatientsWebApi\\PatientsWebApi.csproj",
+              "RelativeToolTip": "PatientsWebApi\\PatientsWebApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-23T05:40:40.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\PatientsWebApi\\PatientsWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "PatientsWebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\PatientsWebApi\\PatientsWebApi\\Program.cs",
+              "RelativeToolTip": "PatientsWebApi\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAB4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T05:45:11.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientRepo.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\PatientsWebApi\\PatientsWebApi\\Repositories\\PatientRepo.cs",
+              "RelativeDocumentMoniker": "PatientsWebApi\\Repositories\\PatientRepo.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\PatientsWebApi\\PatientsWebApi\\Repositories\\PatientRepo.cs",
+              "RelativeToolTip": "PatientsWebApi\\Repositories\\PatientRepo.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwC8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T06:10:34.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IPatient.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\PatientsWebApi\\PatientsWebApi\\Interfaces\\IPatient.cs",
+              "RelativeDocumentMoniker": "PatientsWebApi\\Interfaces\\IPatient.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\PatientsWebApi\\PatientsWebApi\\Interfaces\\IPatient.cs",
+              "RelativeToolTip": "PatientsWebApi\\Interfaces\\IPatient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T06:10:07.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PatientData.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\PatientsWebApi\\PatientsWebApi\\DataAccess\\PatientData.cs",
+              "RelativeDocumentMoniker": "PatientsWebApi\\DataAccess\\PatientData.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\PatientsWebApi\\PatientsWebApi\\DataAccess\\PatientData.cs",
+              "RelativeToolTip": "PatientsWebApi\\DataAccess\\PatientData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T06:07:48.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "T.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\PatientsWebApi\\PatientsWebApi\\Repositories\\T.cs",
+              "RelativeDocumentMoniker": "PatientsWebApi\\Repositories\\T.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\PatientsWebApi\\PatientsWebApi\\Repositories\\T.cs",
+              "RelativeToolTip": "PatientsWebApi\\Repositories\\T.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T06:15:22.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WebApiPatientDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\PatientsWebApi\\PatientsWebApi\\Models\\WebApiPatientDbContext.cs",
+              "RelativeDocumentMoniker": "PatientsWebApi\\Models\\WebApiPatientDbContext.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\PatientsWebApi\\PatientsWebApi\\Models\\WebApiPatientDbContext.cs",
+              "RelativeToolTip": "PatientsWebApi\\Models\\WebApiPatientDbContext.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA5wBQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T05:41:32.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatientsController.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\PatientsWebApi\\PatientsWebApi\\Controllers\\PatientsController.cs",
+              "RelativeDocumentMoniker": "PatientsWebApi\\Controllers\\PatientsController.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\PatientsWebApi\\PatientsWebApi\\Controllers\\PatientsController.cs",
+              "RelativeToolTip": "PatientsWebApi\\Controllers\\PatientsController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T06:25:43.353Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

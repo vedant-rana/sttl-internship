@@ -1,0 +1,623 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.main {
+    width: 100vw;
+}
+
+.top-bar {
+    /* border: 1px solid black; */
+    /* width: 100%; */
+    background-color: #FFFFFF;
+}
+
+/*==========================================================*/
+/* styles for top-bar-1 */
+.top-bar-1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    background-color: #F5F5F5;
+    padding: 0.5vh 8vw;
+}
+
+.left-part {
+    list-style-type: none;
+    display: flex;
+}
+
+.left-part>li {
+    padding: 0 1rem;
+    border-right: 1px solid black;
+    cursor: pointer;
+}
+
+.right-part {
+    list-style-type: none;
+    display: flex;
+}
+
+.right-part>li {
+    padding: 0 1rem;
+    border-right: 1px solid black;
+    cursor: pointer;
+}
+
+.left-part>li:last-child,
+.right-part>li:last-child {
+    border-right: none;
+}
+
+.left-part>li:first-child {
+    padding-left: 0px;
+}
+
+.zoom {
+    display: flex;
+    padding: 0;
+    align-items: center;
+}
+
+.zoom>button {
+    margin: 0 0.1rem;
+    cursor: pointer;
+    background-color: #F5F5F5;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: none;
+    border-radius: 50%;
+}
+
+.zoom>button:hover{
+    background-color: #cdcdcd;
+    transition: all 0.1s linear;
+}
+
+.zoom>button:first-child {
+    font-size: 0.7rem;
+}
+
+.zoom>button:last-child {
+    font-size: 1rem;
+}
+
+.contrast-radio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.black-radio {
+    accent-color: #000000;
+    margin: 0 0.1rem;
+    background-color: #000000;
+}
+
+.language {
+    border: none;
+    background-color: #F5F5F5;
+    margin-right: 0.7rem;
+}
+
+.right-part>li:last-child>i {
+    color: #F58216;
+    font-size: 1rem;
+}
+
+/*========================================================================*/
+/* styles for top-bar-2 */
+.top-bar-2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 2vh 8vw;
+}
+
+.top-bar-2>ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.left-part-2>li {
+    padding: 0 1.5rem;
+}
+
+.left-part-2>li:first-child {
+    padding: 0;
+}
+
+.right-part-2 {
+    align-items: center;
+}
+
+.right-part-2>li>a {
+    padding: 0 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.right-part-2>li:last-child {
+    padding: 0;
+    cursor: pointer;
+}
+
+.right-part-2>li>button {
+    border: 1px solid #F58216;
+    border-radius: 5px;
+    font-family: Poppins;
+    color: #F58216;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #FFFFFF;
+}
+
+
+/*===================================================================*/
+/* Hero section  */
+.hero-section {
+    width: 100%;
+}
+
+.hero-1 {
+    background-image: url('/images/Hero/Mask\ Group\ 138.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 560px;
+    position: relative;
+}
+
+.hero-1>h2 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 8vw;
+    top: 10vh;
+    font-size: 3.5rem;
+    font-weight: 200;
+    color: #FFFFFF;
+    line-height: 4rem;
+}
+
+.hero-1>h2>span {
+    font-weight: 700;
+}
+
+.hero-2 {
+    position: relative;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-2>img{
+    height: 29vh;
+}
+
+.modi {
+    position: absolute;
+    left: 8vw;
+    bottom: -2vw;
+    width: 84vw;
+    height: 10vw;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding-top: 2rem;
+    background-image: url('/images/Hero/quotation-mark.svg');
+    background-repeat: no-repeat;
+    background-position: 90% 45%;
+}
+
+.modi-content {
+    font-size: 1.8rem;
+    width: 50vw;
+    margin-left: 23vw;
+}
+
+.modi-content>p:first-child {
+    display: inline;
+}
+
+.modi-img {
+    position: absolute;
+    left: 12vw;
+    bottom: -4.1vh;
+}
+
+.modi>img {
+    position: absolute;
+    left: 21vw;
+    z-index: 5;
+    bottom: 17vh;
+}
+
+.modi-content>img {
+    transform: rotate(180deg);
+}
+
+.modi-content>div {
+    margin-top: 1rem;
+}
+
+.modi-content>div>span {
+    display: block;
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.modi-name>span:first-child {
+    color: #F58216;
+    font-weight: 600;
+}
+
+.modi-name>span:last-child {
+    color: #676767;
+    margin-left: 1rem;
+}
+
+.hero-3 {
+    height: 543px;
+    padding: 0 5vw;
+    background: #1D4382;
+    background: linear-gradient(circle, #1B2F68 50%, #0E1834 100%);
+}
+
+.hero-3>p {
+    margin: 0;
+    padding: 7vh 0 0 3vw;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.schemes {
+    display: flex;
+    margin-top: 1vh;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.card {
+    width: 23.5vw;
+    height: 36.35vh;
+    object-fit: contain;
+    border-radius: 1rem;
+    object-fit: contain;
+}
+
+.card-img {
+    height: 80%;
+    width: 100%;
+}
+
+.card-img>img {
+    width: 100%;
+    z-index: 0;
+}
+
+.card>p {
+    position: relative;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    z-index: 3;
+    padding: 0;
+    margin: 0;
+    border-radius: 0 0 1rem 1rem;
+}
+
+/* ========================================================================================= */
+/* CSS for reporting module  */
+
+.report {
+    padding: 5vh 8vw 10vh 8vw;
+    background-color: #F6F4F4;
+}
+
+.report-h2 {
+    margin: 0;
+    padding: 0 0 3vh 0;
+    font-size: 2.5rem;
+    font-weight: 5600;
+    color: #323232;
+}
+
+.module {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.module-card {
+    width: 13vw;
+    height: 30vh;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0px 0px 70px 0px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0px 0px 70px 0px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 0px 70px 0px rgba(0, 0, 0, 0.26);
+}
+
+.module-img {
+    width: 100%;
+    height: 75%;
+    overflow: hidden;
+    border-radius: 1rem 1rem 0 0;
+    cursor: pointer;
+}
+
+.module-img>img {
+    width: 100%;
+}
+
+.module-card:hover .module-img>img{
+    scale: 1.1;
+    transition: all 0.5s ease;
+}
+
+.module-card>p {
+    background-color: #FFFFFF;
+    height: 25%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0 0 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ================================================================================ */
+/* CSS for Gallery  */
+
+.gallery {
+    padding: 0 8vw;
+    display: flex;
+}
+
+.left-gallery {
+    width: 30vw;
+    padding: 3rem 2rem 3rem 0;
+}
+
+.press {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.press-h3 {
+    font-size: 2.3rem;
+    font-weight: 5600;
+    color: #323232;
+}
+
+.view {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.1rem;
+}
+
+.view>p {
+    color: #F58216;
+}
+
+.left-width {
+    width: 25%;
+}
+
+.right-width {
+    width: 14%;
+}
+
+.first-arrow {
+    color: #676767;
+}
+
+.second-arrow {
+    color: #F58216;
+}
+
+.events {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.event {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 0;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.event:last-child {
+    border-bottom: none;
+}
+
+.left-event {
+    width: 85%;
+}
+
+.date {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 0.7vh;
+}
+
+.date>span {
+    margin-left: 0.7vw;
+    color: #F58216;
+}
+
+.left-event>p {
+    font-weight: 700;
+}
+
+.left-event>p>span {
+    font-weight: 400;
+}
+
+.right-event {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-gallery {
+    width: 54vw;
+    padding: 3rem 0 3rem 2rem;
+}
+
+.top-right-gallery {
+    width: 100%;
+}
+
+
+/* ******************************************** */
+.bottom-right-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 0;
+    width: 100%;
+    height: 40vh;
+}
+
+.media-gallery-img1 {
+    background-image: url('/images/Gallery/Mask\ Group\ 31.png');
+}
+
+.media-gallery-img2 {
+    background-image: url('images/Gallery/Mask\ Group\ 32.png');
+}
+
+.media-gallery-img {
+    width: 49%;
+    height: 100%;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: white;
+    position: relative;
+}
+
+.media-gallery-img>p {
+    padding-bottom: 1rem;
+
+}
+
+.mediaImg1,
+.mediaImg2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+/* ============================================================================== */
+/* CSS for Goverment logos */
+.government {
+    padding: 3vh 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #676767; */
+    -webkit-box-shadow: 0px 0px 100px -20px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 100px -20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 100px -20px rgba(0, 0, 0, 0.15);
+}
+
+.government>img{
+    height: 100%;
+}
+
+.footer {
+    padding: 2vh 8vw;
+    display: flex;
+    font-size: 0.9rem;
+    font-weight: 200;
+    background-color: #1B2F68;
+    color: #FFFFFF;
+}
+
+
+.left-footer {
+    display: flex;
+    flex-direction: column;
+    width: 63%;
+}
+
+.footer-ul {
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 1vh;
+}
+
+.footer-ul>li {
+    padding: 0rem 1rem;
+    border-left: 0.5px solid #a0a0a0;
+    cursor: pointer;
+}
+
+.footer-ul>li:first-child {
+    padding-left: 0;
+    border-left: 0;
+}
+
+.mid-footer {
+    display: flex;
+    width: 15%;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.mid-footer>a {
+    border-right: 1px solid #a0a0a0;
+    padding: 0 1vw;
+    cursor: pointer;
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+.mid-footer>a:last-child {
+    border-right: none;
+}
+
+.right-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    width: 22%;
+}
+
+.right-footer>p {
+    padding: 0.25vh 0;
+}

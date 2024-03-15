@@ -1,0 +1,70 @@
+﻿@model IEnumerable<QuestionManagementSystem.Models.QuestionsPaper>
+
+
+@{
+    var user = (QuestionManagementSystem.Models.User)Session["user"];
+    var role = user.role.ToString();
+    var name = user.name.ToString();
+}
+
+<h1>Welcome, @name</h1>
+<br/>
+<br/>
+
+<h2>Question Papers List</h2>
+
+<table class="table text-capitalize mt-2 mb-2">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.noOfQuestions)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.creation_date)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.noOfQuestions)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.creation_date)
+            </td>
+            <td>
+                @Html.ActionLink("Add Questions", "CreateQuestions", "Questions", new { id1 = item.paperId }, new { @class = "btn btn-primary" })
+                @Html.ActionLink("Edit Questions", "EditQuestionPaper", "Questions", new { id = item.paperId }, new { @class = "btn btn-success" }) |
+
+                @if (role == "admin")
+                {
+                    @Html.ActionLink("Details", "Details", new { id = item.paperId }, new { @class = "btn btn-secondary" }) 
+}
+                @if (role == "admin")
+                {
+                    @Html.ActionLink("Delete", "Delete", new { id = item.paperId }, new { @class = "btn btn-danger" })
+                }
+            </td>
+        </tr>
+    }
+
+</table>

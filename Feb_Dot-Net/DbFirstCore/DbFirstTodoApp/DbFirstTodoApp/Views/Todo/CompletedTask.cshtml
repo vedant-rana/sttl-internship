@@ -1,0 +1,13 @@
+﻿@model IEnumerable<DbFirstTodoApp.Models.Todolist>
+
+@{
+    ViewBag.Title = "CompletedTasks";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>CompletedTasks</h2>
+
+@Html.Partial("_CompletedTasks", Model)
+
+
+

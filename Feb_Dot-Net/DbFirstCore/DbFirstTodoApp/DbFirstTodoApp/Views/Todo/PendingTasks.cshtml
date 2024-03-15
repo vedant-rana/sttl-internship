@@ -1,0 +1,11 @@
+﻿@model IEnumerable<DbFirstTodoApp.Models.Todolist>
+
+@{
+    ViewBag.Title = "PendingTasks";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>PendingTasks</h2>
+
+
+@Html.Partial("_Pending", Model)

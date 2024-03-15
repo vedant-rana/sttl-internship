@@ -1,0 +1,23 @@
+﻿@model IEnumerable<QuestionManagementSystem.Models.Question>
+
+@{
+    ViewBag.Title = "WatchPaper";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{ 
+    string ttle = ViewBag.title;
+    string desc = ViewBag.description;
+}
+@*<h2>@ttle</h2>*@
+<h3>@desc</h3>
+
+
+@foreach (var item in Model) {
+    <p>Question. -> @Html.DisplayFor(modelItem => item.question1)</p>
+    <ol type="1">
+        <li>@Html.DisplayFor(modelItem => item.opt1)</li>
+        <li>@Html.DisplayFor(modelItem => item.opt2)</li>
+        <li>@Html.DisplayFor(modelItem => item.opt3)</li>
+        <li>@Html.DisplayFor(modelItem => item.opt4)</li>
+    </ol>      
+}

@@ -1,0 +1,372 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|c:\\users\\baps\\source\\repos\\dbfirsttodoapp\\dbfirsttodoapp\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|solutionrelative:dbfirsttodoapp\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\dbfirsttodoapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|solutionrelative:dbfirsttodoapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\dbfirsttodoapp\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|solutionrelative:dbfirsttodoapp\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\dbfirsttodoapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|solutionrelative:dbfirsttodoapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\dbfirsttodoapp\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|solutionrelative:dbfirsttodoapp\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\dbfirsttodoapp\\helpers\\todohelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|solutionrelative:dbfirsttodoapp\\helpers\\todohelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\dbfirsttodoapp\\views\\todo\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|solutionrelative:dbfirsttodoapp\\views\\todo\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\dbfirsttodoapp\\views\\todo\\completed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|solutionrelative:dbfirsttodoapp\\views\\todo\\completed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\dbfirsttodoapp\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|solutionrelative:dbfirsttodoapp\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\dbfirsttodoapp\\views\\todo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|solutionrelative:dbfirsttodoapp\\views\\todo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\dbfirsttodoapp\\views\\todo\\_cards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|solutionrelative:dbfirsttodoapp\\views\\todo\\_cards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\dbfirsttodoapp\\views\\todo\\_completedtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|solutionrelative:dbfirsttodoapp\\views\\todo\\_completedtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\dbfirsttodoapp\\views\\todo\\completedtask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|solutionrelative:dbfirsttodoapp\\views\\todo\\completedtask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\dbfirsttodoapp\\views\\todo\\pendingtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|solutionrelative:dbfirsttodoapp\\views\\todo\\pendingtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\dbfirsttodoapp\\views\\todo\\_todolists.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|solutionrelative:dbfirsttodoapp\\views\\todo\\_todolists.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\dbfirsttodoapp\\views\\todo\\_pending.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|solutionrelative:dbfirsttodoapp\\views\\todo\\_pending.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\dbfirsttodoapp\\models\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|solutionrelative:dbfirsttodoapp\\models\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\dbfirsttodoapp\\models\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|solutionrelative:dbfirsttodoapp\\models\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\dbfirsttodoapp\\models\\model1.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|solutionrelative:dbfirsttodoapp\\models\\model1.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\dbfirsttodoapp\\models\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|solutionrelative:dbfirsttodoapp\\models\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\dbfirsttodoapp\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{2C6DD4CD-9A00-4E70-917C-717323427CCF}|DbFirstTodoApp\\DbFirstTodoApp.csproj|solutionrelative:dbfirsttodoapp\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DbFirstTodoApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DbFirstTodoApp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T08:43:07.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "DbFirstTodoApp\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "DbFirstTodoApp\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-02-16T07:16:40.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DbFirstTodoApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DbFirstTodoApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-15T13:20:56.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TodoController.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Controllers\\TodoController.cs",
+              "RelativeDocumentMoniker": "DbFirstTodoApp\\Controllers\\TodoController.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Controllers\\TodoController.cs",
+              "RelativeToolTip": "DbFirstTodoApp\\Controllers\\TodoController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAuwEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T12:43:44.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "DbFirstTodoApp\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "DbFirstTodoApp\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T14:11:31.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Views\\Todo\\Add.cshtml",
+              "RelativeDocumentMoniker": "DbFirstTodoApp\\Views\\Todo\\Add.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Views\\Todo\\Add.cshtml",
+              "RelativeToolTip": "DbFirstTodoApp\\Views\\Todo\\Add.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAC4AAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-15T12:47:17.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Completed.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Views\\Todo\\Completed.cshtml",
+              "RelativeDocumentMoniker": "DbFirstTodoApp\\Views\\Todo\\Completed.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Views\\Todo\\Completed.cshtml",
+              "RelativeToolTip": "DbFirstTodoApp\\Views\\Todo\\Completed.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-02-15T12:49:53.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "DbFirstTodoApp\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "DbFirstTodoApp\\App_Start\\BundleConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T13:59:46.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TodoHelpers.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Helpers\\TodoHelpers.cs",
+              "RelativeDocumentMoniker": "DbFirstTodoApp\\Helpers\\TodoHelpers.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Helpers\\TodoHelpers.cs",
+              "RelativeToolTip": "DbFirstTodoApp\\Helpers\\TodoHelpers.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAQwFUAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T12:59:05.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Views\\Todo\\Index.cshtml",
+              "RelativeDocumentMoniker": "DbFirstTodoApp\\Views\\Todo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Views\\Todo\\Index.cshtml",
+              "RelativeToolTip": "DbFirstTodoApp\\Views\\Todo\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-15T12:46:47.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Cards.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Views\\Todo\\_Cards.cshtml",
+              "RelativeDocumentMoniker": "DbFirstTodoApp\\Views\\Todo\\_Cards.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Views\\Todo\\_Cards.cshtml",
+              "RelativeToolTip": "DbFirstTodoApp\\Views\\Todo\\_Cards.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-02-15T13:30:45.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CompletedTask.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Views\\Todo\\CompletedTask.cshtml",
+              "RelativeDocumentMoniker": "DbFirstTodoApp\\Views\\Todo\\CompletedTask.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Views\\Todo\\CompletedTask.cshtml",
+              "RelativeToolTip": "DbFirstTodoApp\\Views\\Todo\\CompletedTask.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-15T13:14:39.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PendingTasks.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Views\\Todo\\PendingTasks.cshtml",
+              "RelativeDocumentMoniker": "DbFirstTodoApp\\Views\\Todo\\PendingTasks.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Views\\Todo\\PendingTasks.cshtml",
+              "RelativeToolTip": "DbFirstTodoApp\\Views\\Todo\\PendingTasks.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-02-15T13:18:11.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Todolists.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Views\\Todo\\_Todolists.cshtml",
+              "RelativeDocumentMoniker": "DbFirstTodoApp\\Views\\Todo\\_Todolists.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Views\\Todo\\_Todolists.cshtml",
+              "RelativeToolTip": "DbFirstTodoApp\\Views\\Todo\\_Todolists.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-02-15T13:11:55.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_CompletedTasks.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Views\\Todo\\_CompletedTasks.cshtml",
+              "RelativeDocumentMoniker": "DbFirstTodoApp\\Views\\Todo\\_CompletedTasks.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Views\\Todo\\_CompletedTasks.cshtml",
+              "RelativeToolTip": "DbFirstTodoApp\\Views\\Todo\\_CompletedTasks.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-02-15T13:11:14.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Pending.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Views\\Todo\\_Pending.cshtml",
+              "RelativeDocumentMoniker": "DbFirstTodoApp\\Views\\Todo\\_Pending.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Views\\Todo\\_Pending.cshtml",
+              "RelativeToolTip": "DbFirstTodoApp\\Views\\Todo\\_Pending.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-02-15T13:11:31.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Model1.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Models\\Model1.cs",
+              "RelativeDocumentMoniker": "DbFirstTodoApp\\Models\\Model1.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Models\\Model1.cs",
+              "RelativeToolTip": "DbFirstTodoApp\\Models\\Model1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-02-15T13:03:13.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Model1.tt",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Models\\Model1.tt",
+              "RelativeDocumentMoniker": "DbFirstTodoApp\\Models\\Model1.tt",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Models\\Model1.tt",
+              "RelativeToolTip": "DbFirstTodoApp\\Models\\Model1.tt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-02-15T13:03:11.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Model1.Context.tt",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Models\\Model1.Context.tt",
+              "RelativeDocumentMoniker": "DbFirstTodoApp\\Models\\Model1.Context.tt",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Models\\Model1.Context.tt",
+              "RelativeToolTip": "DbFirstTodoApp\\Models\\Model1.Context.tt",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-02-15T13:03:04.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Todolist.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Models\\Todolist.cs",
+              "RelativeDocumentMoniker": "DbFirstTodoApp\\Models\\Todolist.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Models\\Todolist.cs",
+              "RelativeToolTip": "DbFirstTodoApp\\Models\\Todolist.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-02-15T12:43:49.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "DbFirstTodoApp\\Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\DbFirstTodoApp\\DbFirstTodoApp\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "DbFirstTodoApp\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-02-15T12:42:35.973Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

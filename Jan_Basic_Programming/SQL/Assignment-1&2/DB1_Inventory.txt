@@ -1,0 +1,209 @@
+
+CREATE DATABASE Inventory_Module;
+
+USE Inventory_Module;
+
+CREATE TABLE Category(
+	CategoryID INT PRIMARY KEY,
+	Category_Name NVARCHAR(255),
+	Category_Desc TEXT,
+	CreatedAt DATETIME,
+	ModifiedAt DATETIME,
+);
+
+
+CREATE TABLE Product(
+	ProductID INT PRIMARY KEY,
+	ProductName NVARCHAR(255),
+	Product_Desc TEXT,
+	Price DECIMAL(10,2),
+	Stock INT,
+	CatogoryID INT FOREIGN KEY REFERENCES Category(CategoryID)
+);
+
+
+CREATE TABLE Customer(
+	CustomerID INT PRIMARY KEY,
+    FirstName NVARCHAR(50),
+    LastName NVARCHAR(50),
+	DateOfBirth DATE,
+    Address NVARCHAR(255),
+    PhoneNumber VARCHAR(15)
+);
+
+CREATE TABLE Supplier (
+    SupplierID INT PRIMARY KEY,
+    SupplierName NVARCHAR(255),
+    ContactPerson NVARCHAR(100),
+    PhoneNumber VARCHAR(15),
+    Email NVARCHAR(255),
+	Country NVARCHAR(50)
+);
+
+CREATE TABLE Transactions (
+    TransactionID INT PRIMARY KEY,
+    ProductID INT FOREIGN KEY REFERENCES Product(ProductID),
+    TransactionType NVARCHAR(50),
+    TransactionDate DATE,
+    QuantityChange INT
+);
+
+
+
+-- Customer table
+INSERT INTO Customer (CustomerID, FirstName, LastName, DateOfBirth, Address, PhoneNumber)
+VALUES
+(1, 'John', 'Doe', '1990-01-15', '123 Main St', '123-456-7890'),
+(2, 'Jane', 'Smith', '1985-05-20', '456 Oak St', '987-654-3210'),
+(3, 'Bob', 'Johnson', '1992-08-10', '789 Pine St', '111-222-3333'),
+(4, 'Alice', 'Williams', '1988-03-05', '456 Elm St', '555-333-7777'),
+(5, 'Charlie', 'Brown', '1995-11-30', '789 Maple St', '444-888-9999'),
+(6, 'Eva', 'Miller', '1983-07-22', '123 Birch St', '777-111-2222'),
+(7, 'David', 'Anderson', '1999-02-18', '456 Cedar St', '666-555-4444'),
+(8, 'Grace', 'Turner', '1980-12-08', '789 Oak St', '333-222-1111'),
+(9, 'Frank', 'Wilson', '1994-09-14', '123 Pine St', '999-444-6666'),
+(10, 'Sara', 'Baker', '1987-06-25', '456 Maple St', '888-777-5555');
+
+-- Supplier table
+INSERT INTO Supplier (SupplierID, SupplierName, ContactPerson, PhoneNumber, Email, Country)
+VALUES
+(1, 'TechCorp', 'Alice Johnson', '555-123-4567', 'alice@techcorp.com', 'USA'),
+(2, 'GadgetWorld', 'Bob Smith', '555-987-6543', 'bob@gadgetworld.com', 'Canada'),
+(3, 'ElectroTech', 'Charlie Brown', '555-111-2222', 'charlie@electrotech.com', 'USA'),
+(4, 'GlobalTech', 'David Johnson', '555-333-4444', 'david@globaltech.com', 'UK'),
+(5, 'MegaGizmos', 'Eva Miller', '555-555-5555', 'eva@megagizmos.com', 'Germany'),
+(6, 'TechHub', 'Frank Wilson', '555-666-7777', 'frank@techhub.com', 'USA'),
+(7, 'ElectroGadgets', 'Grace Turner', '555-888-9999', 'grace@electrogadgets.com', 'Canada'),
+(8, 'SmartSupplies', 'Sara Baker', '555-999-1111', 'sara@smartsupplies.com', 'Germany'),
+(9, 'GlobalElectronics', 'John Smith', '555-777-8888', 'john@globalelectronics.com', 'UK'),
+(10, 'InnovateTech', 'Emma Wilson', '555-222-3333', 'emma@innovatetech.com', 'USA');
+
+-- Transactions table
+INSERT INTO Transactions (TransactionID, ProductID, TransactionType, TransactionDate, QuantityChange)
+VALUES
+(1, 1, 'Sale', '2024-01-15', -5),
+(2, 2, 'Purchase', '2024-01-20', 10),
+(3, 3, 'Sale', '2024-01-25', -3),
+(4, 1, 'Purchase', '2024-02-01', 8),
+(5, 2, 'Sale', '2024-02-10', -2),
+(6, 3, 'Sale', '2024-02-18', -1),
+(7, 4, 'Purchase', '2024-03-05', 5),
+(8, 5, 'Sale', '2024-03-12', -4),
+(9, 1, 'Sale', '2024-03-20', -2),
+(10, 2, 'Purchase', '2024-04-02', 7);
+
+-- Category table
+INSERT INTO Category (CategoryID, Category_Name, Category_Desc, CreatedAt, ModifiedAt)
+VALUES
+(1, 'Electronics', 'Electronic gadgets and devices', GETDATE(), GETDATE()),
+(2, 'Books', 'Literary works and publications', GETDATE(), GETDATE()),
+(3, 'Home Appliances', 'Household electronic devices', GETDATE(), GETDATE());
+
+-- Product table
+INSERT INTO Product (ProductID, ProductName, Product_Desc, Price, Stock, CatogoryID)
+VALUES
+(1, 'Laptop', 'High-performance laptop', 1200.00, 20, 1),
+(2, 'Smartphone', 'Latest smartphone model', 800.00, 15, 1),
+(3, 'LED TV', 'Large screen LED television', 1500.00, 10, 1),
+(4, 'Novel', 'Bestselling fiction novel', 20.00, 50, 2),
+(5, 'Coffee Maker', 'Automatic coffee brewing machine', 100.00, 12, 3),
+(6, 'Tablet', 'Portable tablet device', 500.00, 18, 1),
+(7, 'Cookbook', 'Collection of popular recipes', 15.00, 30, 2),
+(8, 'Refrigerator', 'Large capacity refrigerator', 1200.00, 8, 3),
+(9, 'Desk Lamp', 'Adjustable LED desk lamp', 50.00, 25, 1),
+(10, 'Digital Camera', 'High-resolution digital camera', 700.00, 10, 1);
+
+
+
+SELECT * FROM Category;
+SELECT * FROM Product;
+SELECT * FROM Customer ;
+SELECT * FROM Supplier ;
+SELECT * FROM Transactions ;
+
+
+--========================================================================================================
+--Queries : 
+
+
+-- inline category
+-- inline 1: list categories with the count of products in each category
+SELECT CategoryID, Category_Name, ProductCount
+FROM Category
+LEFT JOIN (
+    SELECT CatogoryID, COUNT(*) AS ProductCount
+    FROM Product
+    GROUP BY CatogoryID
+) AS ProductCountView ON Category.CategoryID = ProductCountView.CatogoryID;
+
+--inline 2: list products with their respective category names
+SELECT ProductID, ProductName, Category_Name
+FROM Product
+LEFT JOIN Category ON Product.CatogoryID = Category.CategoryID;
+
+--inline 3: display categories with the average product price
+SELECT CategoryID, Category_Name, AvgPrice
+FROM Category
+LEFT JOIN (
+    SELECT CatogoryID, AVG(Price) AS AvgPrice
+    FROM Product
+    GROUP BY CatogoryID
+) AS CategoryAvgPriceView ON Category.CategoryID = CategoryAvgPriceView.CatogoryID;
+
+
+
+--Sub query 
+--subQuery 1: find customers who made transactions in the last month:
+SELECT CustomerID, FirstName, LastName
+FROM Customer
+WHERE CustomerID IN (
+    SELECT CustomerID
+    FROM Transactions
+    WHERE TransactionDate >= DATEADD(MONTH, -1, GETDATE())
+);
+
+
+--sub query 2: get the total stock of products for a specific category
+SELECT Category_Name, (
+    SELECT SUM(Stock)
+    FROM Product
+    WHERE CatogoryID = Category.CategoryID
+) AS TotalStock
+FROM Category;
+
+
+-- sub query 3: find the total quantity change for each transaction type
+SELECT TransactionType, TotalQuantityChange
+FROM (
+    SELECT TransactionType, SUM(QuantityChange) AS TotalQuantityChange
+    FROM Transactions
+    GROUP BY TransactionType
+) AS TransactionTypeSummary
+WHERE TotalQuantityChange > 0;
+
+
+--========================================================================================================
+--functions 
+--String Functions on cutomer table
+SELECT CONCAT(FirstName, LastName) FROM Customer;
+SELECT LEN(Address) FROM Customer;
+SELECT LEFT(Address,3)AS HouseNo FROM Customer;
+
+
+--MATH Functions
+SELECT MAX(LEFT(Address,1))AS UpperMostFlat FROM Customer;
+SELECT MIN(LEFT(Address,1))AS LowerMostFlat FROM Customer;
+SELECT COUNT(CustomerID) FROM Customer;
+
+
+--DATE Functions
+SELECT MIN(DATEPART(year, DateOfBirth))AS oldestcustomer FROM Customer;
+SELECT FirstName, DateOfBirth FROM Customer ORDER BY YEAR(DateOfBirth);
+SELECT DATEDIFF(year, DateOfBirth, SYSDATETIME())AS AGE FROM Customer;
+
+
+--ADVANCED Functions
+SELECT CAST(PhoneNumber AS nvarchar) FROM Customer;
+SELECT ISNUMERIC(PhoneNumber) FROM Customer;
+SELECT ISNUMERIC(CONVERT(nvarchar, PhoneNumber)) FROM Customer;
+

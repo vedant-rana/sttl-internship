@@ -1,0 +1,568 @@
+{
+	"info": {
+		"_postman_id": "10615c65-96f0-47f4-ad68-139828d171c3",
+		"name": "OrdersSystem",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33292817"
+	},
+	"item": [
+		{
+			"name": "Customers",
+			"item": [
+				{
+					"name": "get-all-customers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7178/api/customers/all",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7178",
+							"path": [
+								"api",
+								"customers",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "customer-by-id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7178/api/customers/1006",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7178",
+							"path": [
+								"api",
+								"customers",
+								"1006"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add-customer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Vedant\",\r\n  \"email\": \"ved@example.com\",\r\n  \"address\": \"Ahmedabad\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7178/api/customers",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7178",
+							"path": [
+								"api",
+								"customers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update-customer",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"customerId\": 1008,\r\n  \"name\": \"Vedant\",\r\n  \"email\": \"ved@example.com\",\r\n  \"address\": \"GJ\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7178/api/customers/1008",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7178",
+							"path": [
+								"api",
+								"customers",
+								"1008"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete-customer",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7178/api/customers/1003",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7178",
+							"path": [
+								"api",
+								"customers",
+								"1003"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "orders-of-single-customer",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7178/api/customers/orders/1006",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7178",
+							"path": [
+								"api",
+								"customers",
+								"orders",
+								"1006"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Products",
+			"item": [
+				{
+					"name": "get-all-products",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7178/api/products/all",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7178",
+							"path": [
+								"api",
+								"products",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get-product-by-id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7178/api/products/1001",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7178",
+							"path": [
+								"api",
+								"products",
+								"1001"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add-product",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Smart Phone\",\r\n    \"description\": \"High-performance laptop\",\r\n    \"price\": 1200,\r\n    \"stockQuantity\": 50\r\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7178/api/products",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7178",
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update-product",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productId\": 1001,\r\n    \"name\": \"Laptop\",\r\n    \"description\": \"High-performance laptop\",\r\n    \"price\": 1200,\r\n    \"stockQuantity\": 100\r\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7178/api/products/1001",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7178",
+							"path": [
+								"api",
+								"products",
+								"1001"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete-product",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7178/api/products/1010",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7178",
+							"path": [
+								"api",
+								"products",
+								"1010"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Orders",
+			"item": [
+				{
+					"name": "get-all-orders",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7178/api/orders/all",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7178",
+							"path": [
+								"api",
+								"orders",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get-order-by-id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7178/api/orders/1002",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7178",
+							"path": [
+								"api",
+								"orders",
+								"1002"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add-order",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"customerId\": 1002,\r\n  \"orderDate\": \"2023-01-02\",\r\n  \"totalAmount\": 1600,\r\n  \"status\": \"Delivered\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7178/api/orders",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7178",
+							"path": [
+								"api",
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update-order",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"customerId\": 1002,\r\n  \"orderDate\": \"2023-01-02\",\r\n  \"totalAmount\": 1600,\r\n  \"status\": \"Delivered\",\r\n  \"isDeleted\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7178/api/orders/1002",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7178",
+							"path": [
+								"api",
+								"orders",
+								"1002"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete-order",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7178/api/orders/1011",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7178",
+							"path": [
+								"api",
+								"orders",
+								"1011"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "items-of-single-order",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7178/api/orders/orderItems/1001",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7178",
+							"path": [
+								"api",
+								"orders",
+								"orderItems",
+								"1001"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "OrderItems",
+			"item": [
+				{
+					"name": "get-all-orderItems",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7178/api/orderItem/all",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7178",
+							"path": [
+								"api",
+								"orderItem",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get-orderitem-by-id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7178/api/orderItem/1006",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7178",
+							"path": [
+								"api",
+								"orderItem",
+								"1006"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add-order-item",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"orderId\": 1003,\r\n    \"productId\": 1003,\r\n    \"quantity\": 1,\r\n    \"unitPrice\": 600\r\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7178/api/orderItem",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7178",
+							"path": [
+								"api",
+								"orderItem"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update-order-item",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"orderItemId\": 1003,\r\n    \"orderId\": 1003,\r\n    \"productId\": 1003,\r\n    \"quantity\": 1,\r\n    \"unitPrice\": 600,\r\n    \"isDeleted\": false\r\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7178/api/orderItem/1003",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7178",
+							"path": [
+								"api",
+								"orderItem",
+								"1003"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete-order-item",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7178/api/orderItem/1003",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7178",
+							"path": [
+								"api",
+								"orderItem",
+								"1003"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "orders-route",
+			"value": "https://localhost:7178/api"
+		}
+	]
+}

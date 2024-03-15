@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1fb221574ce14bea86bca95458fdde9b" Name="Diagram1">
+        <EntityTypeShape EntityType="QuestionSystemModel.Approval" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuestionSystemModel.Question" Width="1.5" PointX="5.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuestionSystemModel.QuestionsPaper" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuestionSystemModel.ScoreCard" Width="1.5" PointX="8.25" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuestionSystemModel.User" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <AssociationConnector Association="QuestionSystemModel.FK__Approval__paperI__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="QuestionSystemModel.FK__Approval__userId__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="QuestionSystemModel.FK_Approval_QuestionsPaper" ManuallyRouted="false" />
+        <AssociationConnector Association="QuestionSystemModel.FK__Questions__paper__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="QuestionSystemModel.FK_Questions_QuestionsPaper" ManuallyRouted="false" />
+        <AssociationConnector Association="QuestionSystemModel.FK__Questions__userI__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="QuestionSystemModel.FK__ScoreCard__paper__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="QuestionSystemModel.FK__ScoreCard__userI__4BAC3F29" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,801 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|c:\\users\\baps\\source\\repos\\questionmanagementsystem\\questionmanagementsystem\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\admin\\studentslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\admin\\studentslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\admin\\teacherslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\admin\\teacherslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\admin\\reviewpaper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\admin\\reviewpaper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\shared\\_userslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\shared\\_userslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\shared\\_students.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\shared\\_students.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\shared\\_teachers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\shared\\_teachers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\shared\\_roleslayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\shared\\_roleslayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\authentication\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\authentication\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\controllers\\questionspaperscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\controllers\\questionspaperscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionManagementSystem.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\questionspapers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionManagementSystem.csproj|solutionrelative:questionmanagementsystem\\views\\questionspapers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\student\\attemptpaper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\student\\attemptpaper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\questions\\editquestionpaper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\questions\\editquestionpaper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\questionspapers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\questionspapers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\questions\\editquestions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\questions\\editquestions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\questions\\createquestions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\questions\\createquestions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\questionspapers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\questionspapers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\student\\score.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\student\\score.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\controllers\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\controllers\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\questionspapers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\questionspapers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\questionspapers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\questionspapers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\models\\questionspaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\models\\questionspaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\models\\studentanswers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\models\\studentanswers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\models\\scorecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\models\\scorecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\admin\\reviewpending.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\admin\\reviewpending.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\userroleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\userroleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\admin\\reviewquestions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionBankProject.csproj|solutionrelative:questionmanagementsystem\\views\\admin\\reviewquestions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionManagementSystem.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\controllers\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionManagementSystem.csproj|solutionrelative:questionmanagementsystem\\controllers\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionManagementSystem.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\controllers\\questionspaperscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionManagementSystem.csproj|solutionrelative:questionmanagementsystem\\controllers\\questionspaperscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionManagementSystem.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionManagementSystem.csproj|solutionrelative:questionmanagementsystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionManagementSystem.csproj|C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\questionmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BBEEC93-B47C-4C62-A740-CF56E8CD5FBA}|QuestionManagementSystem\\QuestionManagementSystem.csproj|solutionrelative:questionmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentsList.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Admin\\StudentsList.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Admin\\StudentsList.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Admin\\StudentsList.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Admin\\StudentsList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-28T05:19:54.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TeachersList.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Admin\\TeachersList.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Admin\\TeachersList.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Admin\\TeachersList.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Admin\\TeachersList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-28T05:19:43.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_UsersList.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Shared\\_UsersList.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Shared\\_UsersList.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Shared\\_UsersList.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Shared\\_UsersList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-28T05:13:57.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Teachers.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Shared\\_Teachers.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Shared\\_Teachers.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Shared\\_Teachers.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Shared\\_Teachers.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAswBYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-28T05:10:07.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "QuestionManagementSystem\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAwwCIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T05:07:23.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditQuestionPaper.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Questions\\EditQuestionPaper.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Questions\\EditQuestionPaper.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Questions\\EditQuestionPaper.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Questions\\EditQuestionPaper.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-20T05:07:23.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-20T05:25:49.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReviewPaper.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Admin\\ReviewPaper.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Admin\\ReviewPaper.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Admin\\ReviewPaper.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Admin\\ReviewPaper.cshtml",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwEYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-20T05:07:23.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADYAAACdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-20T05:06:42.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QuestionsPapersController.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Controllers\\QuestionsPapersController.cs",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Controllers\\QuestionsPapersController.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Controllers\\QuestionsPapersController.cs",
+              "RelativeToolTip": "QuestionManagementSystem\\Controllers\\QuestionsPapersController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwGgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T05:06:42.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EditQuestions.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Questions\\EditQuestions.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Questions\\EditQuestions.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Questions\\EditQuestions.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Questions\\EditQuestions.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-02-20T14:27:03.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Authentication\\Index.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Authentication\\Index.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Authentication\\Index.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Authentication\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-20T06:25:21.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Students.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Shared\\_Students.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Shared\\_Students.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Shared\\_Students.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Shared\\_Students.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-20T08:09:27.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Admin\\CreateUser.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Admin\\CreateUser.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-20T05:25:43.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_RolesLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Shared\\_RolesLayout.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Shared\\_RolesLayout.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Shared\\_RolesLayout.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Shared\\_RolesLayout.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAYwCkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-20T08:10:11.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-20T08:19:15.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\QuestionsPapers\\Index.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\QuestionsPapers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\QuestionsPapers\\Index.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\QuestionsPapers\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-02-20T04:46:10.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Student\\Index.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Student\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-02-20T10:32:06.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AttemptPaper.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Student\\AttemptPaper.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Student\\AttemptPaper.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Student\\AttemptPaper.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Student\\AttemptPaper.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-02-20T10:26:24.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\QuestionsPapers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\QuestionsPapers\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\QuestionsPapers\\Edit.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\QuestionsPapers\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-20T09:47:14.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateQuestions.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Questions\\CreateQuestions.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Questions\\CreateQuestions.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Questions\\CreateQuestions.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Questions\\CreateQuestions.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAE4AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-20T08:19:34.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\QuestionsPapers\\Create.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\QuestionsPapers\\Create.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\QuestionsPapers\\Create.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\QuestionsPapers\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-20T05:26:39.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "QuestionManagementSystem\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCwAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T06:20:56.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Score.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Student\\Score.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Student\\Score.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Student\\Score.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Student\\Score.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAYwAUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-02-20T12:00:48.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-02-20T08:19:14.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-02-20T08:19:21.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "QuestionManagementSystem\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T05:06:42.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TeacherController.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Controllers\\TeacherController.cs",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Controllers\\TeacherController.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Controllers\\TeacherController.cs",
+              "RelativeToolTip": "QuestionManagementSystem\\Controllers\\TeacherController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T14:21:08.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "QuestionManagementSystem\\App_Start\\BundleConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T14:06:24.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "QuestionsController.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Controllers\\QuestionsController.cs",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Controllers\\QuestionsController.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Controllers\\QuestionsController.cs",
+              "RelativeToolTip": "QuestionManagementSystem\\Controllers\\QuestionsController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA1wAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T05:06:42.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "QuestionsPaper.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Models\\QuestionsPaper.cs",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Models\\QuestionsPaper.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Models\\QuestionsPaper.cs",
+              "RelativeToolTip": "QuestionManagementSystem\\Models\\QuestionsPaper.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-02-20T10:14:38.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\QuestionsPapers\\Delete.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\QuestionsPapers\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\QuestionsPapers\\Delete.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\QuestionsPapers\\Delete.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-02-20T13:02:33.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\QuestionsPapers\\Details.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\QuestionsPapers\\Details.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\QuestionsPapers\\Details.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\QuestionsPapers\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-20T13:02:39.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Models\\Question.cs",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Models\\Question.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Models\\Question.cs",
+              "RelativeToolTip": "QuestionManagementSystem\\Models\\Question.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-02-20T12:35:12.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ScoreCard.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Models\\ScoreCard.cs",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Models\\ScoreCard.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Models\\ScoreCard.cs",
+              "RelativeToolTip": "QuestionManagementSystem\\Models\\ScoreCard.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-02-20T12:37:32.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "StudentAnswers.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Models\\StudentAnswers.cs",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Models\\StudentAnswers.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Models\\StudentAnswers.cs",
+              "RelativeToolTip": "QuestionManagementSystem\\Models\\StudentAnswers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T12:43:40.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ReviewPending.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Admin\\ReviewPending.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Admin\\ReviewPending.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Admin\\ReviewPending.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Admin\\ReviewPending.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-20T05:25:51.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "QuestionManagementSystem\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-02-20T09:34:06.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Web.config",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Web.config",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Web.config",
+              "RelativeToolTip": "QuestionManagementSystem\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMAAADYAQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-02-20T05:08:06.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "QuestionManagementSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T06:38:48.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UserRoleProvider.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\UserRoleProvider.cs",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\UserRoleProvider.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\UserRoleProvider.cs",
+              "RelativeToolTip": "QuestionManagementSystem\\UserRoleProvider.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAwwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T07:11:42.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Web.config",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Web.config",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-02-20T07:10:35.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "QuestionManagementSystem\\Models\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T06:22:12.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ReviewQuestions.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Admin\\ReviewQuestions.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Admin\\ReviewQuestions.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Admin\\ReviewQuestions.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Admin\\ReviewQuestions.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-20T05:25:52.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "QuestionsController.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Controllers\\QuestionsController.cs",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Controllers\\QuestionsController.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Controllers\\QuestionsController.cs",
+              "RelativeToolTip": "QuestionManagementSystem\\Controllers\\QuestionsController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T04:46:03.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "QuestionsPapersController.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Controllers\\QuestionsPapersController.cs",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Controllers\\QuestionsPapersController.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Controllers\\QuestionsPapersController.cs",
+              "RelativeToolTip": "QuestionManagementSystem\\Controllers\\QuestionsPapersController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T04:44:59.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QuestionManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-02-20T04:20:06.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "QuestionManagementSystem\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\baps\\source\\repos\\QuestionManagementSystem\\QuestionManagementSystem\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "QuestionManagementSystem\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T13:32:53.266Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

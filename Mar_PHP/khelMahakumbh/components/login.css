@@ -1,0 +1,99 @@
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+}
+
+.main-div{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+    position: relative;
+    overflow: hidden;
+    max-width: 80%;
+    margin: 3rem auto;
+}
+
+.left{
+    /* position: relative;
+    top: 0;
+    transition: all .6s ease-in-out; */
+
+    left: 0;
+    width: 50%;
+    z-index: 2;
+    background-color: #fff;
+    padding: 3rem 2rem;
+    height: 100%;
+}
+
+.form-group{
+    margin-bottom: 25px;
+}
+
+.right{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: transform .6s ease-in-out;
+    z-index: 1;
+}
+
+.overlay{
+    background: url('../images//login-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transition: transform .6s ease-in-out;
+}
+
+.overlay-panel{
+    background: #0824497d;
+    right: 0;
+    transform: translateX(0);
+
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transform: translateX(0);
+    transition: transform .6s ease-in-out;
+}
+
+.overlay-panel h2{
+    color: #fff;
+}
+
+.overlay-panel p{
+    color: #eee;
+}
+
+.btn{
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5rem;
+    position: relative;
+    border: 0;
+    background: linear-gradient(to right, #ff8d00, #e45603, #133b70, #082449);
+    background-image: -webkit-linear-gradient(right, #e45603, #ff8d00);
+    background-size: 300% 100%;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}

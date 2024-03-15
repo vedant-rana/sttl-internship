@@ -1,0 +1,24 @@
+Question):-write a step how to change default file location (MDF and Log file)?
+
+
+1. Open SQL Server Management Studio (SSMS).
+
+2. Connect to your SQL Server instance.
+
+3. In the Object Explorer, right-click on the "Databases" node, and choose "New Database..."
+
+4. In the "New Database" dialog, enter the desired database name in the "Database name" field.
+
+5. Click on the "Files" page on the left side of the dialog.
+
+6. In the "Files" page, you will see the "Primary data file" and "Log file" sections.
+
+	For the "Primary data file," you can specify the logical name, filegroup, and initial size. Below that, you can set the "File path" to specify the default location for the MDF file.
+
+	For the "Log file," you can specify the logical name, filegroup, and initial size. Below that, you can set the "File path" to specify the default location for the LDF file.
+
+	Note: You can use the ellipsis (...) button to browse and choose a folder for the file path.
+
+7. Once you have configured the file paths, review the other settings in the "Options" page if needed.
+
+Click "OK" to create the new database with the specified file locations.

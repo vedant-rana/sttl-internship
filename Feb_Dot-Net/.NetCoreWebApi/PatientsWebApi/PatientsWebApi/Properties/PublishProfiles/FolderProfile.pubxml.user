@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\baps\Desktop\HostedApps</_PublishTargetUrl>
+    <History>True|2024-02-26T13:39:22.8052064Z;True|2024-02-26T19:06:55.5733316+05:30;True|2024-02-26T18:45:35.8055600+05:30;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="conString">
+      <Value>server=DESKTOP-VDC38MB%3b database=WebApiPatientDB%3b trusted_connection=true%3b TrustServerCertificate=true%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="PatientsWebApi.Models.WebApiPatientDbContext">
+      <Value>server=DESKTOP-VDC38MB%3b database=WebApiPatientDB%3b trusted_connection=true%3b TrustServerCertificate=true%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

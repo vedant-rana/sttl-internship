@@ -1,0 +1,307 @@
+
+CREATE DATABASE LibraryDB;
+
+USE LibraryDB;
+
+
+CREATE TABLE Category (
+    CategoryID INT PRIMARY KEY,
+    CategoryName NVARCHAR(50),
+    Description NVARCHAR(255),
+    IsActive BIT,
+    CreatedDate DATETIME
+);
+
+
+CREATE TABLE Book (
+    BookID INT PRIMARY KEY,
+    Title NVARCHAR(255),
+    Author NVARCHAR(100),
+    PublicationYear INT,
+    ISBN VARCHAR(20),
+    AvailableCopies INT,
+	CategoryId INT FOREIGN KEY REFERENCES Category(CategoryID)
+);
+
+CREATE TABLE Author (
+    AuthorID INT PRIMARY KEY,
+    FirstName NVARCHAR(50),
+    LastName NVARCHAR(50),
+    BirthDate DATE,
+    Nationality NVARCHAR(50),
+	BestSeller NVARCHAR(255)
+);
+
+CREATE TABLE Member (
+    MemberID INT PRIMARY KEY,
+    FirstName NVARCHAR(50),
+    LastName NVARCHAR(50),
+    DateOfBirth DATE,
+    Email NVARCHAR(255),
+	TotalBorrowedBook INT,
+);
+
+CREATE TABLE Transactions (
+    TransactionID INT PRIMARY KEY,
+    BookID INT FOREIGN KEY REFERENCES Book(BookID),
+    MemberID INT FOREIGN KEY REFERENCES Member(MemberID),
+    CheckoutDate DATETIME,
+    ReturnDate DATETIME,
+	IsApproved BIT
+);
+
+
+
+INSERT INTO Category (CategoryID, CategoryName, Description, IsActive, CreatedDate)
+VALUES
+    (1, 'Fiction', 'Novels and stories', 1, '2024-01-19T10:00:00'),
+    (2, 'Science', 'Books on science and technology', 1, '2024-01-19T10:15:00'),
+    (3, 'History', 'Books on historical events', 1, '2024-01-19T10:30:00'),
+    (4, 'Biography', 'Biographical books', 1, '2024-01-19T10:45:00');
+
+
+INSERT INTO Author (AuthorID, FirstName, LastName, BirthDate, Nationality, BestSeller)
+VALUES
+    (1, 'John', 'Doe', '1980-05-15', 'American', 'The Best Book Ever'),
+    (2, 'Alice', 'Smith', '1975-08-22', 'British', 'Memoirs of a Scientist'),
+    (3, 'Bob', 'Johnson', '1990-03-10', 'Canadian', 'From Rags to Riches'),
+    (4, 'Eva', 'Williams', '1985-11-28', 'Australian', 'Inspirational Journey');
+
+
+INSERT INTO Book (BookID, Title, Author, PublicationYear, ISBN, AvailableCopies, CategoryId)
+VALUES
+    (101, 'The Adventure', 'John Doe', 2010, '1234567890', 10, 1),
+    (102, 'Quantum Physics', 'Alice Smith', 2018, '9876543210', 5, 2),
+    (103, 'Ancient Civilizations', 'Bob Johnson', 2005, '111122223333', 8, 3),
+    (104, 'Success Story', 'Eva Williams', 2015, '444455556666', 15, 4);
+
+
+INSERT INTO Member (MemberID, FirstName, LastName, DateOfBirth, Email, TotalBorrowedBook)
+VALUES
+    (1, 'Michael', 'Clark', '1992-07-03', 'michael.clark@email.com', 2),
+    (2, 'Sophia', 'Martin', '1988-01-15', 'sophia.martin@email.com', 3),
+    (3, 'Oliver', 'Harris', '1995-09-22', 'oliver.harris@email.com', 1),
+    (4, 'Emma', 'Taylor', '1982-04-07', 'emma.taylor@email.com', 4);
+
+
+INSERT INTO Transactions (TransactionID, BookID, MemberID, CheckoutDate, ReturnDate, IsApproved)
+VALUES
+    (1, 101, 1, '2024-01-19T11:00:00', '2024-01-25T14:00:00', 1),
+    (2, 102, 2, '2024-01-20T09:30:00', '2024-02-02T11:45:00', 1),
+    (3, 103, 3, '2024-01-21T13:15:00', '2024-01-30T10:30:00', 0),
+    (4, 104, 4, '2024-01-22T14:45:00', NULL, 1); 
+
+
+
+SELECT * FROM Category;
+SELECT * FROM Author;
+SELECT * FROM Book;
+SELECT * FROM Member;
+SELECT * FROM Transactions;
+
+
+
+--   DDL and DML commands
+
+ALTER TABLE Author ADD Biography NVARCHAR(MAX);  --will add the col to table 
+
+ALTER TABLE Author ALTER COLUMN Biography NVARCHAR(200);  --will modify the datatype of table
+
+ALTER TABLE Author DROP COLUMN Biography; -- will delete a col in table
+
+UPDATE Author SET FirstName='Jane' WHERE AuthorID=1;
+
+DELETE FROM Author WHERE AuthorID=3;
+
+DROP TABLE Transactions;  --delete whole table with schema
+
+TRUNCATE TABLE Member;  -- delete only data of table not schema
+
+DROP DATABASE LibraryDB;
+
+SELECT * FROM Author;
+SELECT * FROM Member;
+--SELECT * FROM Transactions;
+
+
+
+-- Dummy data for Category table
+INSERT INTO Category (CategoryID, CategoryName, Description, IsActive, CreatedDate)
+VALUES
+    (5, 'Mystery', 'Mystery novels', 1, '2024-01-22T10:00:00'),
+    (6, 'Self-Help', 'Books for personal development', 1, '2024-01-22T10:15:00'),
+    (7, 'Travel', 'Books about travel and exploration', 1, '2024-01-22T10:30:00'),
+    (8, 'Cooking', 'Cookbooks and culinary literature', 1, '2024-01-22T10:45:00'),
+    (9, 'Poetry', 'Poetry collections', 1, '2024-01-22T11:00:00'),
+    (10, 'Technology', 'Books on latest technologies', 1, '2024-01-22T11:15:00'),
+    (11, 'Health', 'Health and wellness books', 1, '2024-01-22T11:30:00'),
+    (12, 'Business', 'Books on business and finance', 1, '2024-01-22T11:45:00'),
+    (13, 'Art', 'Books on art and creativity', 1, '2024-01-22T12:00:00'),
+    (14, 'Music', 'Books about music and musicians', 1, '2024-01-22T12:15:00'),
+    (15, 'Sports', 'Books on sports and athletes', 1, '2024-01-22T12:30:00');
+
+-- Dummy data for Author table
+INSERT INTO Author (AuthorID, FirstName, LastName, BirthDate, Nationality, BestSeller)
+VALUES
+    (5, 'Sarah', 'Jones', '1982-09-18', 'American', 'The Mindful Life'),
+    (6, 'David', 'Miller', '1978-06-25', 'Canadian', 'The Startup Journey'),
+    (7, 'Emily', 'Brown', '1993-03-12', 'British', 'Sculpting Dreams'),
+    (8, 'Daniel', 'Anderson', '1987-12-05', 'Australian', 'Beyond the Horizon'),
+    (9, 'Linda', 'Lee', '1970-11-08', 'American', 'Infinite Possibilities'),
+    (10, 'Robert', 'Wang', '1985-04-30', 'Chinese', 'The Tech Revolution'),
+    (11, 'Ava', 'Garcia', '1990-07-15', 'Spanish', 'The Art of Cooking'),
+    (12, 'Michael', 'Chen', '1983-02-20', 'Japanese', 'Rhythms of Nature'),
+    (13, 'Grace', 'Taylor', '1975-10-03', 'Canadian', 'Mastering the Markets'),
+    (14, 'Jonathan', 'Johnson', '1988-08-16', 'American', 'The Creative Mind'),
+    (15, 'Sophie', 'Martin', '1995-05-28', 'French', 'Musical Harmony');
+
+-- Dummy data for Book table
+INSERT INTO Book (BookID, Title, Author, PublicationYear, ISBN, AvailableCopies, CategoryId)
+VALUES
+    (105, 'The Enigma', 'Sarah Jones', 2012, '555566667777', 12, 5),
+    (106, 'Mindfulness in Business', 'David Miller', 2019, '123412341234', 8, 6),
+    (107, 'Journey to the Unknown', 'Emily Brown', 2008, '987698769876', 6, 7),
+    (108, 'Culinary Delights', 'Daniel Anderson', 2016, '111122223333', 10, 8),
+    (109, 'Poetic Whispers', 'Linda Lee', 2010, '444455556666', 15, 9),
+    (110, 'Tech Innovations', 'Robert Wang', 2021, '876587658765', 7, 10),
+    (111, 'Wellness Revolution', 'Ava Garcia', 2014, '999988887777', 9, 11),
+    (112, 'Financial Mastery', 'Michael Chen', 2017, '333344445555', 11, 12),
+    (113, 'Artistic Expressions', 'Grace Taylor', 2005, '222233334444', 5, 13),
+    (114, 'Harmonious Notes', 'Jonathan Johnson', 2013, '678967896789', 14, 14),
+    (115, 'Sports Legends', 'Sophie Martin', 2011, '876543210987', 8, 15);
+
+-- Dummy data for Member table
+INSERT INTO Member (MemberID, FirstName, LastName, DateOfBirth, Email, TotalBorrowedBook)
+VALUES
+    (5, 'Benjamin', 'Hill', '1989-04-14', 'benjamin.hill@email.com', 3),
+    (6, 'Isabella', 'Turner', '1991-12-28', 'isabella.turner@email.com', 2),
+    (7, 'Henry', 'Ward', '1978-08-07', 'henry.ward@email.com', 1),
+    (8, 'Sophia', 'Jones', '1997-06-19', 'sophia.jones@email.com', 4),
+    (9, 'Jack', 'Cooper', '1985-01-03', 'jack.cooper@email.com', 2),
+    (10, 'Madison', 'Reed', '1994-09-25', 'madison.reed@email.com', 3),
+    (11, 'Leo', 'Perez', '1980-03-16', 'leo.perez@email.com', 1),
+    (12, 'Hannah', 'Baker', '1998-11-10', 'hannah.baker@email.com', 2),
+    (13, 'Daniel', 'Bell', '1983-05-22', 'daniel.bell@email.com', 4),
+    (14, 'Ella', 'Ross', '1990-02-08', 'ella.ross@email.com', 1),
+    (15, 'Owen', 'Fisher', '1987-07-31', 'owen.fisher@email.com', 3);
+
+-- Dummy data for Transactions table
+INSERT INTO Transactions (TransactionID, BookID, MemberID, CheckoutDate, ReturnDate, IsApproved)
+VALUES
+    (5, 105, 5, '2024-01-22T11:00:00', '2024-01-28T14:30:00', 1),
+    (6, 106, 6, '2024-01-23T10:30:00', '2024-02-04T09:15:00', 1),
+    (7, 107, 7, '2024-01-24T12:45:00', '2024-02-01T08:45:00', 0),
+    (8, 108, 8, '2024-01-25T14:15:00', NULL, 1),
+    (9, 109, 9, '2024-01-26T15:30:00', '2024-02-05T10:00:00', 1),
+    (10, 110, 10, '2024-01-27T09:00:00', '2024-02-03T11:30:00', 1),
+    (11, 111, 11, '2024-01-28T13:45:00', '2024-02-02T13:00:00', 0),
+    (12, 112, 12, '2024-01-29T14:30:00', '2024-02-06T12:15:00', 1),
+    (13, 113, 13, '2024-01-30T11:15:00', '2024-02-04T14:30:00', 1),
+    (14, 114, 14, '2024-01-31T09:45:00', NULL, 1),
+    (15, 115, 15, '2024-02-01T10:30:00', '2024-02-07T09:00:00', 1);
+
+
+	-- Adding more transactions for the same members
+INSERT INTO Transactions (TransactionID, BookID, MemberID, CheckoutDate, ReturnDate, IsApproved)
+VALUES
+    (16, 105, 5, '2024-02-05T09:00:00', '2024-02-10T12:30:00', 1),
+    (17, 106, 6, '2024-02-06T11:30:00', '2024-02-12T10:15:00', 1),
+    (18, 107, 7, '2024-02-07T10:45:00', NULL, 1),
+    (19, 108, 8, '2024-02-08T13:15:00', NULL, 1),
+    (20, 109, 9, '2024-02-09T14:30:00', '2024-02-15T11:00:00', 1),
+    (21, 110, 10, '2024-02-10T09:30:00', '2024-02-18T11:45:00', 1),
+    (22, 111, 11, '2024-02-11T13:45:00', '2024-02-17T13:00:00', 1),
+    (23, 112, 12, '2024-02-12T14:30:00', '2024-02-20T12:15:00', 1),
+    (24, 113, 13, '2024-02-13T11:15:00', '2024-02-18T14:30:00', 1),
+    (25, 114, 14, '2024-02-14T09:45:00', NULL, 1),
+    (26, 115, 15, '2024-02-15T10:30:00', '2024-02-21T09:00:00', 1);
+
+
+--========================================================================================================
+
+
+--inline query 1 
+--display members who have borrowed more than 1 books
+SELECT * 
+FROM Member
+WHERE MemberID IN (
+    SELECT MemberID
+    FROM Transactions
+    GROUP BY MemberID
+    HAVING COUNT(*) > 1
+);
+
+--active members and their total borrowed books
+SELECT MemberID, FirstName, LastName, TotalBorrowedBook
+FROM Member
+WHERE MemberID IN (
+    SELECT MemberID
+    FROM Transactions
+    WHERE IsApproved = 1
+    GROUP BY MemberID
+);
+
+--Books category
+SELECT b.BookID, b.Title, b.Author, c.CategoryName
+FROM Book b
+JOIN Category c ON b.CategoryID = c.CategoryID;
+
+
+
+--Sub query on libraryDB
+--sub query 1 : total number of books borrowed by a specific member
+SELECT FirstName, LastName, (
+    SELECT COUNT(*)
+    FROM Transactions
+    WHERE MemberID = Member.MemberID
+) AS TotalBorrowedBooks
+FROM Member;
+
+--sub query 2:  list of members who have not returned books
+SELECT * 
+FROM Member
+WHERE MemberID IN (
+    SELECT MemberID
+    FROM Transactions
+    WHERE ReturnDate IS NULL
+);
+
+
+--sub query 3:  list of books with the earliest publication year
+SELECT *
+FROM Book
+WHERE PublicationYear = (
+    SELECT MIN(PublicationYear)
+    FROM Book
+);
+
+
+--========================================================================================================
+
+
+--String Functions
+
+SELECT CategoryName, LEFT(Description, 15) FROM Category;
+SELECT CategoryID, UPPER(CategoryName) FROM Category;
+SELECT (FirstName +' '+ LastName) FROM Author;
+
+
+--Math Functions 
+
+SELECT MAX(AvailableCopies)as MostBook FROM Book;
+SELECT MIN(AvailableCopies)as MinBook FROM Book;
+SELECT AVG(AvailableCopies) FROM Book;
+
+
+--Date Functions
+SELECT DATEDIFF(day, CheckoutDate, ReturnDate)as rentDays FROM Transactions;
+SELECT DATEPART(year, DateOfBirth)as membersBirthYear FROM Member;
+SELECT DATENAME(month, DateOfBirth)as membersBirthYear FROM Member;
+
+
+--Advanced functions
+SELECT CAST(DateOfBirth as datetime) FROM Member;
+SELECT ISNULL(ReturnDate, '2020-01-01 00:00:00.000') FROM Transactions;
+SELECT IIF(CheckoutDate<ReturnDate, 'valid', 'not valid') FROM Transactions;
+
+

@@ -1,0 +1,58 @@
+﻿@model IEnumerable<QuestionManagementSystem.Models.QuestionsPaper>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var student = (QuestionManagementSystem.Models.User)Session["user"];
+    var name = student.name.ToString();
+}
+<h1>Welcome, @name</h1>
+<br /><br/>
+
+<h2>All Papers</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.description)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.noOfQuestions)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.creation_date)
+        </th>*@
+        <th>Action</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.description)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.noOfQuestions)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.status)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.creation_date)
+        </td>*@
+        <td>
+            @Html.ActionLink("Attempt", "AttemptPaper","Student", new { id=item.paperId},new {@class = "btn btn-success"})
+        </td>
+    </tr>
+}
+
+</table>

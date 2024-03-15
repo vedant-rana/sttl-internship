@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<main>
+    <h1 class="text-center">Welcome to Question Bank</h1>
+    <br />
+    <br />
+    <button class="btn btn-primary">@Html.ActionLink("Login", "Index", "Authentication", new { area = "" }, new { @class = "nav-buttonnk" })</button>
+
+</main>

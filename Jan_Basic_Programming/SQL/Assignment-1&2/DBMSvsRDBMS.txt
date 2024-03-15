@@ -1,0 +1,20 @@
+ DBMS      
+
+1) Stores data in a structured manner, but it may not necessarily use tables or enforce relationships between tables.
+2)Focuses on managing and storing data but may not enforce strict integrity constraints, such as foreign keys and unique constraints.
+3)Handles data independently, and relationships between tables may not be explicitly defined or enforced.
+4) Generally more suitable for smaller-scale applications where data complexity and relationships are not as critical.
+5) Offers flexibility in terms of data storage and retrieval, but it may lack features like data validation, transactions, and complex querying.
+
+
+ RDBMS 
+
+1)Organizes data in tables with rows and columns, and enforces relationships between these tables. It provides a more structured and organized way to store and retrieve data.
+2)Enforces data integrity rules to ensure that relationships between tables are maintained, and it typically supports ACID properties (Atomicity, Consistency, Isolation,    Durability).
+3)Emphasizes relationships between tables. It uses keys (primary and foreign) to establish and maintain connections between related data in different tables.
+4)Scales well for larger and more complex datasets. Its structured approach and support for normalization contribute to better scalability.
+5)Provides a more rigid structure, but this rigidity ensures data consistency, integrity, and supports complex querying and transactions.
+
+
+
+

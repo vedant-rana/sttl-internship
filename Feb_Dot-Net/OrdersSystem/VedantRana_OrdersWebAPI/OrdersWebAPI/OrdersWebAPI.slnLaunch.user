@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "OrdersWebAPI\\OrdersWebAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "OrdersFrontEnd\\OrdersFrontEnd.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

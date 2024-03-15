@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ACh4JZcykp9dwqEItbOIx0gXInrAKVxZ2wRxoKH52j4=",
+  "Source": "PatientsWebApi",
+  "BasePath": "_content/PatientsWebApi",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
